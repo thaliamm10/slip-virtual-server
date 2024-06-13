@@ -1,11 +1,5 @@
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2024-06-13T04:30:00.717Z"}
-{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-06-13T04:30:00.725Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2024-06-13T04:30:00.792Z"}
-{"level":"info","message":"[http:7808 Imposter for api] Open for business...","timestamp":"2024-06-13T04:30:00.812Z"}
-{"level":"info","message":"[http:7808 Imposter for api] ::1:55641 => GET /clients/","timestamp":"2024-06-13T04:30:02.578Z"}
-{"level":"info","message":"[http:7808 Imposter for api] ::1:55642 => GET /clients/2","timestamp":"2024-06-13T04:30:06.813Z"}
-{"level":"info","message":"[http:7808 Imposter for api] ::1:55644 => GET /clients","timestamp":"2024-06-13T04:30:11.703Z"}
-{"level":"info","message":"[http:7808 Imposter for api] ::1:55645 => GET /clients/2","timestamp":"2024-06-13T04:30:15.827Z"}
-{"level":"info","message":"[http:7808 Imposter for api] ::1:55646 => GET /clients","timestamp":"2024-06-13T04:31:01.886Z"}
-{"level":"error","message":"[http:7808 Imposter for api] ::1:55647 transmission error X=> {\"code\":\"ERR_HTTP_REQUEST_TIMEOUT\"}","timestamp":"2024-06-13T04:31:30.854Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2024-06-13T04:32:05.352Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2024-06-13T18:33:55.931Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-06-13T18:33:55.939Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2024-06-13T18:33:55.998Z"}
+{"level":"info","message":"[http:3000 Imposter for api] Open for business...","timestamp":"2024-06-13T18:33:56.016Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2024-06-13T19:00:05.222Z"}
