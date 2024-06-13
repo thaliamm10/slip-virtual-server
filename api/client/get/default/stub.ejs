@@ -1,0 +1,13 @@
+{
+    "predicates": [{
+        "and": [
+            <% include ../shared/match_request.ejs %>
+        ]
+    }],
+    "responses": [{
+        "is": {
+            "statusCode": 200,
+            "body": <% include ./body.json %>
+        }
+    }]
+}

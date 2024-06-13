@@ -1,0 +1,20 @@
+[
+    {
+      "id": "1",
+      "dni": "12345678",
+      "lastName": "González",
+      "firstName": "María",
+      "gender": "Female",
+      "address": "Calle Mayor 123",
+      "phoneNumber": "987654321"
+    },
+    {
+      "id": "2",
+      "dni": "87654321",
+      "lastName": "Pérez",
+      "firstName": "Juan",
+      "gender": "Male",
+      "address": "Avenida Libertad 456",
+      "phoneNumber": "654987321"
+    }
+  ]

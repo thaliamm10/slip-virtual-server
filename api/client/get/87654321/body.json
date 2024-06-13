@@ -1,0 +1,9 @@
+{
+    "id": "2",
+    "dni": "87654321",
+    "lastName": "Pérez",
+    "firstName": "Juan",
+    "gender": "Male",
+    "address": "Avenida Libertad 456",
+    "phoneNumber": "654987321"
+  }
