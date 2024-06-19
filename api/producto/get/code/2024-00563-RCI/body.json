@@ -1,0 +1,209 @@
+{
+    "payload": {
+        "data": [
+            {
+                "nombre": "RC Trabajos Puntuales hasta US$ 500,000, Deducible diferenciado + DES",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "RC Trabajos Puntuales hasta US$ 500,000, Deducible diferenciado + DES",
+                "auditoria": {
+                    "userCreate": "e8ba234f-11b7-44a9-81db-b69a6c64cce7",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2024-03-07T19:56:32.388Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "fc9e8fc6-15d7-4023-83df-27e6a874e17b",
+                "validado": true
+            },
+            {
+                "nombre": "RC Trabajos Puntuales hasta US$ 250,000, Deducible diferenciado + DES",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "RC Trabajos Puntuales hasta US$ 250,000, Deducible diferenciado + DES",
+                "auditoria": {
+                    "userCreate": "e8ba234f-11b7-44a9-81db-b69a6c64cce7",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2024-03-07T19:15:15.135Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "dcde5bdd-bc49-4072-9dd3-348d7369117b",
+                "validado": true
+            },
+            {
+                "nombre": "RC Trabajos Puntuales hasta US$ 100,000, Deducible diferenciado + DES",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "RC Trabajos Puntuales hasta US$ 100,000, Deducible diferenciado + DES",
+                "auditoria": {
+                    "userCreate": "e8ba234f-11b7-44a9-81db-b69a6c64cce7",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2024-03-07T15:50:52.712Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "3e18cbfc-4b3b-4a26-b2d6-c070eeeb1c1b",
+                "validado": true
+            },
+            {
+                "nombre": "Plantilla Producto Responsabilidad Civil - Comercial",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "Plantilla Producto Responsabilidad Civil - Comercial",
+                "auditoria": {
+                    "userCreate": "da736214-e43e-4576-afa3-04cae73bc4ef",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2021-11-17T04:21:45.468Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "0a63f04d-64e9-4334-a388-b77f69197579",
+                "validado": true
+            },
+            {
+                "nombre": "RC Trabajos Puntuales hasta US$ 250,000, Deducible diferenciado",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "RC Trabajos Puntuales hasta US$ 250,000, Deducible diferenciado",
+                "auditoria": {
+                    "userCreate": "e8ba234f-11b7-44a9-81db-b69a6c64cce7",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2024-03-07T16:57:02.495Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "30369774-afbb-4be1-b69d-dbec328dec2f",
+                "validado": true
+            },
+            {
+                "nombre": "RC Trabajos Puntuales hasta US$ 500,000, Deducible diferenciado",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "RC Trabajos Puntuales hasta US$ 500,000, Deducible diferenciado",
+                "auditoria": {
+                    "userCreate": "e8ba234f-11b7-44a9-81db-b69a6c64cce7",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2024-03-07T19:38:28.569Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "93aae752-7481-431d-a192-7f909b93948c",
+                "validado": true
+            },
+            {
+                "nombre": "Límite por demandante de US$ 1,000",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "Límite por demandante de US$ 1,000",
+                "auditoria": {
+                    "userCreate": "da736214-e43e-4576-afa3-04cae73bc4ef",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2023-09-12T01:34:46.306Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "41a3f22b-6ee9-4ab6-b537-e4b84abe64dd",
+                "validado": true
+            },
+            {
+                "nombre": "Responsabilidad Civil regla dependencia",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "Responsabilidad Civil regla dependencia",
+                "auditoria": {
+                    "userCreate": "ac0857ac-263a-4e7d-bd0c-701347c95c9d",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2022-11-17T23:31:24.693Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "73c62438-6e5d-4c15-bc0d-6ce5e92b3df1",
+                "validado": true
+            },
+            {
+                "nombre": "RC Trabajos Puntuales hasta US$ 100,000, Deducible diferenciado",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "RC Trabajos Puntuales hasta US$ 100,000, Deducible diferenciado",
+                "auditoria": {
+                    "userCreate": "e8ba234f-11b7-44a9-81db-b69a6c64cce7",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2024-03-06T19:54:32.491Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "d31b6af5-bb64-4b3b-ba85-5c33484bbebd",
+                "validado": true
+            },
+            {
+                "nombre": "Límite por demandante de US$ 2,500",
+                "producto": {
+                    "idEntidad": 2,
+                    "descripcion": "Responsabilidad Civil"
+                },
+                "descripcion": "Límite por demandante de US$ 2,500",
+                "auditoria": {
+                    "userCreate": "da736214-e43e-4576-afa3-04cae73bc4ef",
+                    "userUpdate": "da736214-e43e-4576-afa3-04cae73bc4ef",
+                    "dateCreate": {
+                        "date": "2023-09-29T14:25:20.327Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": {
+                        "date": "2023-11-24T14:19:41.224Z",
+                        "utcOffset": "-05:00"
+                    }
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "de262c79-66c4-4ad0-9ec9-94427c6a3e44",
+                "validado": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,941 @@
+{
+    "payload": {
+        "solicitud": {
+            "codOrigen": "TL1131",
+            "codSolicitud": "2024-00562-ROB",
+            "version": 1,
+            "estado": "CREADA",
+            "inicioVigencia": "22/02/2021",
+            "finVigencia": "28/02/2024",
+            "periodo": "1101 días (12:00 hrs a 12:00 hrs)",
+            "moneda": "USD",
+            "descMoneda": "USD",
+            "simboloMoneda": "US$",
+            "partRimac": 100,
+            "tipoTramite": "N",
+            "descTipoTramite": "Nuevo Seguro",
+            "corredor": {
+                "numId": "21",
+                "nombre": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop22",
+                "nroDocumento": "21",
+                "tipoDocumento": "1",
+                "nomTipoDoc": "RUC",
+                "codRefExterna": "21"
+            },
+            "cliente": [
+                {
+                    "numId": null,
+                    "nombre": "EstosoncincuentapalabrasparalapruebadePDFentreSalesforceYSlipsEstosoncincuentapalabrasparalapruebadePDFentreSalesforceYSlipsEstosoncincuentapalabrasparalapruebadePDFentreSalesforceYSlipsEstosoncinaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx200",
+                    "nroDocumento": "34823105112",
+                    "tipoDocumento": "1",
+                    "nomTipoDoc": "RUC",
+                    "rolCliente": "CONTRATANTE",
+                    "sort": 0
+                },
+                {
+                    "numId": null,
+                    "nombre": "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the s when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries but also the leap into electronic typesetting remaining essentially unchanged It was popularised in the s with the release of Letraset sheets containing Lorem Ipsum passages and more recently with desktoppppppppppppppppppp",
+                    "nroDocumento": "12345076137",
+                    "tipoDocumento": "1",
+                    "nomTipoDoc": "RUC",
+                    "rolCliente": "ASEGURADO",
+                    "sort": 1
+                },
+                {
+                    "numId": null,
+                    "nombre": "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the s when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries but also the leap into electronic typesetting remaining essentially unchanged It was popularised in the s with the release of Letraset sheets containing Lorem Ipsum passages and more recently with desktoppppppppppppppppppp",
+                    "nroDocumento": "12141637",
+                    "tipoDocumento": "2",
+                    "nomTipoDoc": "DNI",
+                    "rolCliente": "ASEGURADO",
+                    "sort": 1
+                },
+                {
+                    "numId": null,
+                    "nombre": "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the s when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries but also the leap into electronic typesetting remaining essentially unchanged It was popularised in the s with the release of Letraset sheets containing Lorem Ipsum passages and more recently with desktoppppppppppppppppppp",
+                    "nroDocumento": "12345671112",
+                    "tipoDocumento": "1",
+                    "nomTipoDoc": "RUC",
+                    "rolCliente": "ASEGURADO_ADICIONAL",
+                    "sort": 2
+                }
+            ],
+            "producto": {
+                "sigla": "ROB",
+                "nombre": "Robo",
+                "codRefExterna": "1101",
+                "facturacionAnual": null,
+                "planillaAnual": null,
+                "numTrabajadores": null,
+                "montoContrato": null,
+                "duracionContrato": null,
+                "esMayorMaximoDireccion": false,
+                "esBienesAsegurados": false,
+                "direccion": [
+                    {
+                        "descGiro": "RESTAURANTE",
+                        "codOcupacion": 2560,
+                        "descOcupacion": "RESTAURANTE",
+                        "codPais": "428",
+                        "descPais": "PERÚ",
+                        "codDepartamento": "15",
+                        "descDepartamento": "LIMA",
+                        "codProvincia": "01",
+                        "descProvincia": "LIMA",
+                        "codDistrito": "40",
+                        "descDistrito": "SANTIAGO DE SURCO",
+                        "codTipoVia": "AV",
+                        "descTipoVia": "AVENIDA",
+                        "nombreVia": "JAVIER PRADO ESTE",
+                        "numero": "4488",
+                        "urbanizacion": "",
+                        "referencia": "CERCA A LA COMISARIA",
+                        "direccionCompleta": "AV JAVIER PRADO ESTE N° 4488 - 4500 Mz. B - Lt. 10 OF. 13 Km: 204 BARRIO PUERTO NUEVO ZONA PALMETO CERCA A LA COMISARIA SANTIAGO DE SURCO - LIMA - LIMA - PERÚ",
+                        "duplicado": false
+                    }
+                ]
+            },
+            "idPlantilla": "1641af3d-ee0e-4e0e-be73-edf7d15526ec",
+            "auditoria": {
+                "userCreate": "95960c8f-4bdd-49c1-85ff-6297647c75f4",
+                "dateCreate": {
+                    "date": "2024-05-13T19:54:04.000Z",
+                    "utcOffset": "-05:00"
+                },
+                "userUpdate": "f1d3df2f-1f29-44a9-9995-efc5afde46a9",
+                "dateUpdate": {
+                    "date": "2024-06-17T03:04:39.000Z",
+                    "utcOffset": "-05:00"
+                }
+            }
+        },
+        "plantilla": {
+            "nombre": "Regla dependencias robo - SG",
+            "numeroVersion": 1,
+            "tipoEntidad": "SLIP",
+            "idEntidad": "1641af3d-ee0e-4e0e-be73-edf7d15526ec",
+            "producto": {
+                "idEntidad": 1,
+                "descripcion": "Robo"
+            },
+            "descripcion": "Regla dependencias robo - SG",
+            "codSolicitud": "2024-00562-ROB",
+            "validado": true,
+            "modulo": [
+                {
+                    "descripcion": "Condiciones particulares",
+                    "idEntidad": "9818b7a2-e864-478a-9efd-ce1c43fe29c2",
+                    "obligatorio": true,
+                    "tipoEntidad": "MODULO",
+                    "contieneDato": true,
+                    "deshabilitado": true,
+                    "contenidoModulo": [
+                        {
+                            "descripcion": "SECCIÓN ROBO",
+                            "idEntidad": "3dc3cb3f-b892-4393-8dde-585612a20616",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "sistema": true,
+                                    "reglas": {
+                                        "3d04be5a-e723-4f2b-b354-90aae2780d55": {
+                                            "tipo": "dependencia",
+                                            "comentario": "Regla de dependencia 2",
+                                            "combinaciones": {
+                                                "91d7f7d2-49d2-4389-a60f-a39e2c95dd75": {
+                                                    "estadoElementoPrincipal": 0,
+                                                    "catalogos": {
+                                                        "b51873d6-5efb-4d2d-a528-4bc86e1f8ec1/5a525e4a-7f41-4410-b1d8-bf956a60f523": {
+                                                            "estado": 1
+                                                        },
+                                                        "4222afd9-caa3-4235-baa2-4eec8dcd2624/c91399a3-ae37-4995-b419-290413c6e621": {
+                                                            "estado": 1
+                                                        },
+                                                        "4222afd9-caa3-4235-baa2-4eec8dcd2624/84fda674-72a1-403a-afcb-84b0bcffab4a": {
+                                                            "estado": 1
+                                                        },
+                                                        "b51873d6-5efb-4d2d-a528-4bc86e1f8ec1/cdb3e052-96ae-4ae3-aa07-cbcd87399600": {
+                                                            "estado": 0
+                                                        }
+                                                    },
+                                                    "predefinido": true
+                                                },
+                                                "2715d612-2490-4188-bbf4-a5cf5f22875d": {
+                                                    "estadoElementoPrincipal": 1,
+                                                    "catalogos": {
+                                                        "b51873d6-5efb-4d2d-a528-4bc86e1f8ec1/5a525e4a-7f41-4410-b1d8-bf956a60f523": {
+                                                            "estado": 1
+                                                        },
+                                                        "4222afd9-caa3-4235-baa2-4eec8dcd2624/c91399a3-ae37-4995-b419-290413c6e621": {
+                                                            "estado": 0
+                                                        },
+                                                        "4222afd9-caa3-4235-baa2-4eec8dcd2624/84fda674-72a1-403a-afcb-84b0bcffab4a": {
+                                                            "estado": 1
+                                                        },
+                                                        "b51873d6-5efb-4d2d-a528-4bc86e1f8ec1/cdb3e052-96ae-4ae3-aa07-cbcd87399600": {
+                                                            "estado": 1
+                                                        }
+                                                    },
+                                                    "predefinido": true
+                                                }
+                                            },
+                                            "clasificacionBien": "CONTENIDO",
+                                            "version": 2,
+                                            "cabeceras": [
+                                                {
+                                                    "descripcion": "Bienes declarados",
+                                                    "idCatalogo": "458c8784-2d83-4523-accd-30269c1c9879",
+                                                    "eliminar": false,
+                                                    "elementos": [
+                                                        {
+                                                            "descripcion": "CONTENIDO",
+                                                            "idElemento": "593cf72f-bada-47f0-8ded-cd2c53b6af88"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "idCatalogo": "b51873d6-5efb-4d2d-a528-4bc86e1f8ec1",
+                                                    "descripcion": "Catálogo pruebas regla de dependencia",
+                                                    "eliminar": true,
+                                                    "elementos": [
+                                                        {
+                                                            "descripcion": "Compuesto Regla dependencia 1",
+                                                            "idElemento": "5a525e4a-7f41-4410-b1d8-bf956a60f523"
+                                                        },
+                                                        {
+                                                            "descripcion": "Simple Regla dependencia 1",
+                                                            "idElemento": "cdb3e052-96ae-4ae3-aa07-cbcd87399600"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "idCatalogo": "4222afd9-caa3-4235-baa2-4eec8dcd2624",
+                                                    "descripcion": "Catálogo regla dependencias 2",
+                                                    "eliminar": true,
+                                                    "elementos": [
+                                                        {
+                                                            "descripcion": "Compuesto Regla dependencia 2",
+                                                            "idElemento": "84fda674-72a1-403a-afcb-84b0bcffab4a"
+                                                        },
+                                                        {
+                                                            "descripcion": "Clausula Regla dependencia 2",
+                                                            "idElemento": "c91399a3-ae37-4995-b419-290413c6e621"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "18ac20b9-320f-45d7-a4fb-0a2e9f52f3ac": {
+                                            "tipo": "dependencia",
+                                            "comentario": "Regla de dependencia 1",
+                                            "combinaciones": {
+                                                "6dc8b379-e9d0-4549-9528-fb1ccf6e2a05": {
+                                                    "estadoElementoPrincipal": 0,
+                                                    "catalogos": {
+                                                        "4222afd9-caa3-4235-baa2-4eec8dcd2624/350d2a46-aace-4c01-9598-ff4908c46357": {
+                                                            "estado": 1
+                                                        },
+                                                        "b51873d6-5efb-4d2d-a528-4bc86e1f8ec1/031f942e-4fc8-4755-8a06-a5134a7dd1b8": {
+                                                            "estado": 1
+                                                        }
+                                                    },
+                                                    "predefinido": true
+                                                },
+                                                "d0d0c1c5-a1d8-4d41-8145-b8e4750d7c30": {
+                                                    "estadoElementoPrincipal": 1,
+                                                    "catalogos": {
+                                                        "4222afd9-caa3-4235-baa2-4eec8dcd2624/350d2a46-aace-4c01-9598-ff4908c46357": {
+                                                            "estado": 1
+                                                        },
+                                                        "b51873d6-5efb-4d2d-a528-4bc86e1f8ec1/031f942e-4fc8-4755-8a06-a5134a7dd1b8": {
+                                                            "estado": 1
+                                                        }
+                                                    },
+                                                    "predefinido": true
+                                                }
+                                            },
+                                            "clasificacionBien": "CONTENIDO",
+                                            "version": 1,
+                                            "cabeceras": [
+                                                {
+                                                    "descripcion": "Bienes declarados",
+                                                    "idCatalogo": "458c8784-2d83-4523-accd-30269c1c9879",
+                                                    "eliminar": false,
+                                                    "elementos": [
+                                                        {
+                                                            "descripcion": "CONTENIDO",
+                                                            "idElemento": "593cf72f-bada-47f0-8ded-cd2c53b6af88"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "idCatalogo": "b51873d6-5efb-4d2d-a528-4bc86e1f8ec1",
+                                                    "descripcion": "Catálogo pruebas regla de dependencia",
+                                                    "eliminar": true,
+                                                    "elementos": [
+                                                        {
+                                                            "descripcion": "Condicionado Regla dependencia 1",
+                                                            "idElemento": "031f942e-4fc8-4755-8a06-a5134a7dd1b8"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "idCatalogo": "4222afd9-caa3-4235-baa2-4eec8dcd2624",
+                                                    "descripcion": "Catálogo regla dependencias 2",
+                                                    "eliminar": true,
+                                                    "elementos": [
+                                                        {
+                                                            "descripcion": "Simple Regla dependencia 2",
+                                                            "idElemento": "350d2a46-aace-4c01-9598-ff4908c46357"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "tipoEntidad": "CATALOGO",
+                                    "implementa": {
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "63bf9e8a-c46f-4bc4-8b46-69a56214c9b0",
+                                        "descripcion": "BIENES ASEGURADOS Y VALORES DECLARADOS"
+                                    },
+                                    "descripcion": "Bienes declarados",
+                                    "clasificacionElementos": [
+                                        "BIEN"
+                                    ],
+                                    "idEntidad": "17bf5f69-09fb-47d6-a411-ca87875ef87f",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "permitirEliminar": false,
+                                            "tipoEstructura": "TABLA",
+                                            "estructura": {
+                                                "idEntidad": "1faaf828-5e31-479e-9b3d-ad5ec6d7a6ed",
+                                                "tipo": "BIEN",
+                                                "cabecera": [
+                                                    {
+                                                        "descripcion": "Activo",
+                                                        "idEntidad": "0a246204-e50a-4c45-bbe2-cd1095f87bbf"
+                                                    },
+                                                    {
+                                                        "descripcion": "Valor Declarado",
+                                                        "idEntidad": "0cabd869-5122-4b9a-940c-fa0a466eaf3d"
+                                                    }
+                                                ],
+                                                "tabla": [
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "descripcion": "ACERVO DOCUMENTARIO",
+                                                                "idEntidad": "593cf72f-bada-47f0-8ded-cd2c53b6af88",
+                                                                "indVisible": true,
+                                                                "clasificacionBien": "CONTENIDO",
+                                                                "codRefExterna": "0260053",
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "ACERVO DOCUMENTARIO"
+                                                            }
+                                                        ],
+                                                        "valorDeclarado": {
+                                                            "monto": {
+                                                                "valor": 100,
+                                                                "codigoMoneda": "USD",
+                                                                "simbolo": "US$"
+                                                            }
+                                                        },
+                                                        "id": "bc676955-7ae5-4284-bc29-80a49c85763e",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "descripcion": "ACTIVOS",
+                                                                "idEntidad": "aa51a817-0ade-4bcf-9566-af71ca8acf41",
+                                                                "indVisible": true,
+                                                                "clasificacionBien": "CONTENIDO",
+                                                                "codRefExterna": "0080000",
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "ACTIVOS"
+                                                            }
+                                                        ],
+                                                        "valorDeclarado": {
+                                                            "monto": {
+                                                                "valor": 100,
+                                                                "codigoMoneda": "USD",
+                                                                "simbolo": "US$"
+                                                            }
+                                                        },
+                                                        "id": "6a23a364-c567-47a9-b815-f2136e9fc590",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "descripcion": "CONTENIDOS",
+                                                                "idEntidad": "40b09429-e275-41b0-b05f-1778e24b230f",
+                                                                "indVisible": true,
+                                                                "clasificacionBien": "CONTENIDO",
+                                                                "codRefExterna": "0260000",
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "CONTENIDOS"
+                                                            }
+                                                        ],
+                                                        "valorDeclarado": {
+                                                            "monto": {
+                                                                "valor": 100,
+                                                                "codigoMoneda": "USD",
+                                                                "simbolo": "US$"
+                                                            }
+                                                        },
+                                                        "id": "b2d49fba-861e-48bd-804f-8d66e65be360",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "descripcion": "EXISTENCIAS",
+                                                                "idEntidad": "0424c5ca-fb34-4b96-9d38-a8066c086c36",
+                                                                "indVisible": true,
+                                                                "clasificacionBien": "EXISTENCIAS",
+                                                                "codRefExterna": "0260003",
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "EXISTENCIAS"
+                                                            }
+                                                        ],
+                                                        "valorDeclarado": {
+                                                            "monto": {
+                                                                "valor": 100,
+                                                                "codigoMoneda": "USD",
+                                                                "simbolo": "US$"
+                                                            }
+                                                        },
+                                                        "id": "3661f17f-7698-4abb-831f-2e8ec5840be1",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "descripcion": "EXISTENCIAS DE MATERIA PRIMA",
+                                                                "idEntidad": "cfd9b212-757b-496d-8e0a-08f0cd7020fb",
+                                                                "indVisible": true,
+                                                                "clasificacionBien": "EXISTENCIAS",
+                                                                "codRefExterna": "0040002",
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "EXISTENCIAS DE MATERIA PRIMA"
+                                                            }
+                                                        ],
+                                                        "valorDeclarado": {
+                                                            "monto": {
+                                                                "valor": 100,
+                                                                "codigoMoneda": "USD",
+                                                                "simbolo": "US$"
+                                                            }
+                                                        },
+                                                        "id": "01010047-b37d-4b9a-b444-fbf841caafba",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "descripcion": "COBERTURA AUTOMATICA",
+                                                                "idEntidad": "e205cad9-ded4-4b06-b610-7a3406be3dfe",
+                                                                "indVisible": true,
+                                                                "clasificacionBien": "OTROS",
+                                                                "codRefExterna": "1410000",
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "COBERTURA AUTOMATICA"
+                                                            }
+                                                        ],
+                                                        "valorDeclarado": {
+                                                            "monto": {
+                                                                "valor": 100,
+                                                                "codigoMoneda": "USD",
+                                                                "simbolo": "US$"
+                                                            }
+                                                        },
+                                                        "id": "2c24817d-3033-46fe-9cef-36be51c8436e",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "descripcion": "TOTAL ACTIVO FIJO Y REALIZABLE",
+                                                                "idEntidad": "eed346aa-870b-42a3-b7ac-e912f30cd322",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "TOTAL ACTIVO FIJO Y REALIZABLE"
+                                                            }
+                                                        ],
+                                                        "valorDeclarado": {
+                                                            "monto": {
+                                                                "valor": 600,
+                                                                "codigoMoneda": "USD",
+                                                                "simbolo": "US$"
+                                                            }
+                                                        },
+                                                        "id": "18d57595-8a1d-4dd2-b604-e2eb0c07b59f",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "descripcion": "TOTAL VALORES DECLARADOS",
+                                                                "idEntidad": "f03c847d-5c12-42fb-9182-608dc7f388d9",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "TOTAL VALORES DECLARADOS"
+                                                            }
+                                                        ],
+                                                        "valorDeclarado": {
+                                                            "monto": {
+                                                                "valor": 600,
+                                                                "codigoMoneda": "USD",
+                                                                "simbolo": "US$"
+                                                            }
+                                                        },
+                                                        "id": "4d94b6c9-f02e-4842-a83e-df95fcdffbb4",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "458c8784-2d83-4523-accd-30269c1c9879"
+                                },
+                                {
+                                    "reglas": {},
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN ROBO",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "3dc3cb3f-b892-4393-8dde-585612a20616"
+                                    },
+                                    "descripcion": "Catálogo pruebas regla de dependencia",
+                                    "clasificacionElementos": [
+                                        "CONDICIONADO",
+                                        "SIMPLE",
+                                        "ESPECIAL",
+                                        "CLAUSULA"
+                                    ],
+                                    "idEntidad": "060f8825-1643-4978-808a-c576d8247e42",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "permitirEliminar": true,
+                                            "tipoEstructura": "TABLA",
+                                            "estructura": {
+                                                "idEntidad": "b9ebb5e6-7c3d-46bb-98bb-9cda1549c17f",
+                                                "tipo": "COBERTURA",
+                                                "cabecera": [
+                                                    {
+                                                        "descripcion": "Otras Coberturas",
+                                                        "idEntidad": "47012c38-efc2-4c34-83a1-900fc9358d19"
+                                                    },
+                                                    {
+                                                        "descripcion": "Suma Asegurada (Límite en Agregado Vigencia)",
+                                                        "idEntidad": "aa5734b0-6a19-47e3-b5ff-d9bc1a3783bc"
+                                                    }
+                                                ],
+                                                "tabla": [
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "031f942e-4fc8-4755-8a06-a5134a7dd1b8",
+                                                                "descripcion": "Condicionado Regla dependencia 1",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "INU123 Condicionado Regla dependencia 1"
+                                                            }
+                                                        ],
+                                                        "sumaAsegurada": {
+                                                            "modalidad": [],
+                                                            "monto": {
+                                                                "simbolo": "US$",
+                                                                "codigoMoneda": "USD",
+                                                                "idEntidad": "83f17a92-aeba-4ef3-b866-92c3a1f8b2e7",
+                                                                "cantidad": 100
+                                                            }
+                                                        },
+                                                        "id": "4492ad41-b159-4232-844c-7a2896724394",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "5a525e4a-7f41-4410-b1d8-bf956a60f523",
+                                                                "descripcion": "Compuesto Regla dependencia 1",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "Compuesto Regla dependencia 1"
+                                                            }
+                                                        ],
+                                                        "sumaAsegurada": {
+                                                            "modalidad": [],
+                                                            "monto": {
+                                                                "simbolo": "US$",
+                                                                "codigoMoneda": "USD",
+                                                                "idEntidad": "d4d181c3-f28e-405f-9341-2be97e37b3c7",
+                                                                "cantidad": 200
+                                                            }
+                                                        },
+                                                        "id": "4fcb2a0e-bb84-4dbc-8751-39c759981292",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "cdb3e052-96ae-4ae3-aa07-cbcd87399600",
+                                                                "descripcion": "Simple Regla dependencia 1",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "Simple Regla dependencia 1"
+                                                            }
+                                                        ],
+                                                        "sumaAsegurada": {
+                                                            "modalidad": [],
+                                                            "monto": {
+                                                                "simbolo": "US$",
+                                                                "codigoMoneda": "USD",
+                                                                "idEntidad": "08f936b7-190b-43ef-84da-0bb19a29d2ca",
+                                                                "cantidad": 400
+                                                            }
+                                                        },
+                                                        "id": "e3c01bfa-3518-4f7d-a7de-cf9194315273",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "f611fc7a-7133-4319-94bd-97a039959330",
+                                                                "descripcion": "Clausula Regla dependencia 1",
+                                                                "numeroCambio": 0,
+                                                                "indVisible": true,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "INU125 Clausula Regla dependencia 1"
+                                                            }
+                                                        ],
+                                                        "sumaAsegurada": {
+                                                            "modalidad": [],
+                                                            "monto": {
+                                                                "simbolo": "US$",
+                                                                "codigoMoneda": "USD",
+                                                                "idEntidad": "5bac9fe9-8e61-4b1d-9acf-927c77b179cf",
+                                                                "cantidad": 0
+                                                            }
+                                                        },
+                                                        "id": "b61026bb-c286-4db4-be7b-88b0be3759b6",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "b51873d6-5efb-4d2d-a528-4bc86e1f8ec1"
+                                },
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCION INCENDIO",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "e2498b36-387d-40fc-b127-c69193c680ce"
+                                    },
+                                    "descripcion": "Catálogo regla dependencias 2",
+                                    "clasificacionElementos": [
+                                        "CONDICIONADO",
+                                        "CLAUSULA",
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "f7a66cad-4722-432c-b670-2c2bcd3c22f3",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": true,
+                                            "estructura": {
+                                                "idEntidad": "156c03ca-3f47-4b4a-a5ec-dff05815522c",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "Compuesto Regla dependencia 2",
+                                                        "idEntidad": "84fda674-72a1-403a-afcb-84b0bcffab4a",
+                                                        "contenido": "Compuesto Regla dependencia 2",
+                                                        "indVisible": true,
+                                                        "clasificacion": "ESPECIAL",
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Compuesto Regla dependencia 2"
+                                                    },
+                                                    {
+                                                        "descripcion": "Simple Regla dependencia 2",
+                                                        "idEntidad": "350d2a46-aace-4c01-9598-ff4908c46357",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Simple Regla dependencia 2"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "permitirEliminar": false,
+                                            "tipoEstructura": "TABLA",
+                                            "estructura": {
+                                                "idEntidad": "089093b2-a77c-48b9-8132-eaf4fa623661",
+                                                "tipo": "COBERTURA",
+                                                "cabecera": [
+                                                    {
+                                                        "descripcion": "Activo",
+                                                        "idEntidad": "0a246204-e50a-4c45-bbe2-cd1095f87bbf"
+                                                    },
+                                                    {
+                                                        "descripcion": "Anual",
+                                                        "idEntidad": "6572da40-0a69-4bec-9ab0-11846003ec20"
+                                                    }
+                                                ],
+                                                "tabla": []
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "4222afd9-caa3-4235-baa2-4eec8dcd2624"
+                                },
+                                {
+                                    "reglas": {
+                                        "4f2034b7-076c-4a05-bdee-f866b9a6bdd4": {
+                                            "idCatalogo": "d60d233f-802a-42eb-9a56-9345876dab4e",
+                                            "tipo": "seleccionUnica",
+                                            "idElemento": "e16a352c-9d75-48ed-b8c2-e32b83fbb5d2",
+                                            "comentario": "Regla selección única",
+                                            "obligatorio": false,
+                                            "elementos": {
+                                                "e5b46b00-2c8b-4afb-a37b-cbf228ef1db9": {
+                                                    "idElemento": "d36b4b9f-c491-476a-9a2f-af11269317f6"
+                                                },
+                                                "ddc357cf-9e04-4b08-9ee8-bc9ff0e5d685": {
+                                                    "idElemento": "96e24f73-5b30-469d-843c-b2cc1f859885"
+                                                }
+                                            }
+                                        },
+                                        "ddc357cf-9e04-4b08-9ee8-bc9ff0e5d685": {
+                                            "idCatalogo": "d60d233f-802a-42eb-9a56-9345876dab4e",
+                                            "tipo": "seleccionUnica",
+                                            "idElemento": "96e24f73-5b30-469d-843c-b2cc1f859885",
+                                            "comentario": "Regla selección única",
+                                            "obligatorio": false,
+                                            "elementos": {
+                                                "4f2034b7-076c-4a05-bdee-f866b9a6bdd4": {
+                                                    "idElemento": "e16a352c-9d75-48ed-b8c2-e32b83fbb5d2"
+                                                },
+                                                "e5b46b00-2c8b-4afb-a37b-cbf228ef1db9": {
+                                                    "idElemento": "d36b4b9f-c491-476a-9a2f-af11269317f6"
+                                                }
+                                            }
+                                        },
+                                        "e5b46b00-2c8b-4afb-a37b-cbf228ef1db9": {
+                                            "idCatalogo": "d60d233f-802a-42eb-9a56-9345876dab4e",
+                                            "tipo": "seleccionUnica",
+                                            "idElemento": "d36b4b9f-c491-476a-9a2f-af11269317f6",
+                                            "comentario": "Regla selección única",
+                                            "obligatorio": false,
+                                            "elementos": {
+                                                "4f2034b7-076c-4a05-bdee-f866b9a6bdd4": {
+                                                    "idElemento": "e16a352c-9d75-48ed-b8c2-e32b83fbb5d2"
+                                                },
+                                                "ddc357cf-9e04-4b08-9ee8-bc9ff0e5d685": {
+                                                    "idElemento": "96e24f73-5b30-469d-843c-b2cc1f859885"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN ROBO",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "3dc3cb3f-b892-4393-8dde-585612a20616"
+                                    },
+                                    "descripcion": "Catalogo nuevo 2023",
+                                    "clasificacionElementos": [
+                                        "SIMPLE"
+                                    ],
+                                    "idEntidad": "7267064d-f81e-40f7-994d-5447c21843b8",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "e0a3b7d2-c7e5-44fd-ac7e-8aadfb74d1fa",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "Elemento simple 2023",
+                                                        "idEntidad": "e16a352c-9d75-48ed-b8c2-e32b83fbb5d2",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Elemento simple 2023"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "d60d233f-802a-42eb-9a56-9345876dab4e"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        }
+                    ]
+                },
+                {
+                    "descripcion": "Condicionados y cláusulas",
+                    "idEntidad": "f441a0c5-4e5e-4d94-b1e6-9afb3970b1fd",
+                    "obligatorio": false,
+                    "tipoEntidad": "MODULO",
+                    "contieneDato": true,
+                    "deshabilitado": false,
+                    "contenidoModulo": [
+                        {
+                            "descripcion": "SECCION INCENDIO",
+                            "idEntidad": "e2498b36-387d-40fc-b127-c69193c680ce",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": false,
+                            "data": [
+                                {
+                                    "descripcion": "Compuesto Regla dependencia 4",
+                                    "idEntidad": "ee57ffed-e192-45bf-868c-78252d0cecc0",
+                                    "contenido": "Compuesto Regla dependencia 4",
+                                    "clasificacion": "ESPECIAL",
+                                    "numeroCambio": 0,
+                                    "tipoEntidad": "ELEMENTO",
+                                    "textoDescriptivo": "Compuesto Regla dependencia 4"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": true
+                        }
+                    ]
+                },
+                {
+                    "descripcion": "Primas",
+                    "idEntidad": "64217bf8-0855-4c02-9a43-6b06317edb13",
+                    "obligatorio": true,
+                    "tipoEntidad": "MODULO",
+                    "contieneDato": true,
+                    "deshabilitado": true,
+                    "contenidoModulo": [
+                        {
+                            "descripcion": "SECCIÓN ROBO",
+                            "idEntidad": "3dc3cb3f-b892-4393-8dde-585612a20616",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN ROBO",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "3dc3cb3f-b892-4393-8dde-585612a20616"
+                                    },
+                                    "implementa": {
+                                        "descripcion": "DEDUCIBLES (Por todo y cada evento)",
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "98402574-937c-4154-a4e4-7f7c73286ffa"
+                                    },
+                                    "descripcion": "Deducibles Robo - PO",
+                                    "clasificacionElementos": [
+                                        "SIMPLE"
+                                    ],
+                                    "idEntidad": "26ae9c2c-f5b4-4bf1-aeee-3da8ec302c75",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "permitirEliminar": false,
+                                            "tipoEstructura": "TABLA",
+                                            "estructura": {
+                                                "idEntidad": "79c26e0f-3517-4936-8024-a7496d29a8b8",
+                                                "tipo": "DEDUCIBLE",
+                                                "cabecera": [
+                                                    {
+                                                        "descripcion": "Descripción",
+                                                        "idEntidad": "bf68e55e-8221-420b-a2d6-80c0028a4524"
+                                                    },
+                                                    {
+                                                        "descripcion": "Deducibles (por todo y cada evento)",
+                                                        "idEntidad": "e2fea752-cd57-4031-8dea-a89fa6438711"
+                                                    }
+                                                ],
+                                                "tabla": [
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "ea307487-9e17-43d5-93d0-c9d01f231d13",
+                                                                "descripcion": "Deducible",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "Deducible"
+                                                            }
+                                                        ],
+                                                        "tipoDeducible": {
+                                                            "idEntidad": "ee712490-c47c-4824-8495-2ee94a374181",
+                                                            "descripcion": "20% del monto indemnizable, mínimo US$ 500",
+                                                            "porcentaje": 20,
+                                                            "rango": "mínimo",
+                                                            "monto": {
+                                                                "simbolo": "US$",
+                                                                "codigoMoneda": "USD",
+                                                                "idEntidad": "13e5954e-af80-4811-989f-586f403fc1cc",
+                                                                "cantidad": 500
+                                                            },
+                                                            "condicion": "montoIndemnizable"
+                                                        },
+                                                        "id": "23169f6d-80e6-4a6e-b2ce-ec65a61553eb",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "66401081-87b0-44df-9f4d-b3d45ce6f2e9"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

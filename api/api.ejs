@@ -5,7 +5,9 @@
     "defaultResponse": {
         "statusCode": "404"
     },
-    "stubs": [
-        <% include ./client/stubs.ejs %>
+    "stubs": [ 
+      <% include ./solicitud/stubs.ejs %>,
+      <% include ./producto/stubs.ejs %>,
+      <% include ./plantilla/stubs.ejs %>
     ]
 }

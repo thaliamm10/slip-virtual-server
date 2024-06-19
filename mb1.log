@@ -1,5 +1,3 @@
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2024-06-13T18:33:55.931Z"}
-{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-06-13T18:33:55.939Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2024-06-13T18:33:55.998Z"}
-{"level":"info","message":"[http:3000 Imposter for api] Open for business...","timestamp":"2024-06-13T18:33:56.016Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2024-06-13T19:00:05.222Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-06-19T05:00:20.378Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2024-06-19T05:00:20.440Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2024-06-19T05:02:23.590Z"}

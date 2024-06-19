@@ -1,0 +1,49 @@
+{
+    "payload": {
+        "data": [
+            {
+                "nombre": "Regla dependencias robo - SG",
+                "producto": {
+                    "idEntidad": 1,
+                    "descripcion": "Robo"
+                },
+                "descripcion": "Regla dependencias robo - SG",
+                "auditoria": {
+                    "userCreate": "ac0857ac-263a-4e7d-bd0c-701347c95c9d",
+                    "userUpdate": "ac0857ac-263a-4e7d-bd0c-701347c95c9d",
+                    "dateCreate": {
+                        "date": "2022-11-11T16:20:12.067Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": {
+                        "date": "2023-01-18T19:44:00.045Z",
+                        "utcOffset": "-05:00"
+                    }
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "a096ded4-1ef1-4c3b-9ecb-678467c1c80b",
+                "validado": true
+            },
+            {
+                "nombre": "Pruebas producción R-Dependencia Robo",
+                "producto": {
+                    "idEntidad": 1,
+                    "descripcion": "Robo"
+                },
+                "descripcion": "Pruebas producción R-Dependencia Robo",
+                "auditoria": {
+                    "userCreate": "ac0857ac-263a-4e7d-bd0c-701347c95c9d",
+                    "userUpdate": null,
+                    "dateCreate": {
+                        "date": "2022-11-11T21:25:37.734Z",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": null
+                },
+                "tipoEntidad": "PLANTILLA",
+                "idEntidad": "a91aad8f-13d7-4ca1-9241-538c797c57e6",
+                "validado": true
+            }
+        ]
+    }
+}

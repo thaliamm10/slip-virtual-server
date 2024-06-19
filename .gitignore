@@ -1,0 +1,6 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+mb.log
+mb1.log

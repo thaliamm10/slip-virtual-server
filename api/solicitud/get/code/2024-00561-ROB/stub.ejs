@@ -1,0 +1,21 @@
+{
+    "predicates": [
+        {
+            "and": [
+                <% include ../../shared/match_request.ejs %>,
+                {
+                    "contains": { "path": "2024-00561-ROB" }
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": <% include ../../shared/header.json %>,
+                "body": <% include ./body.json %>
+            }
+        }
+    ]
+}

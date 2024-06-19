@@ -1,0 +1,1950 @@
+{
+    "payload": {
+        "solicitud": {
+            "codOrigen": "TL2120",
+            "codSolicitud": "2024-00563-RCI",
+            "version": 1,
+            "estado": "CREADA",
+            "inicioVigencia": "25/01/2024",
+            "finVigencia": "25/09/2024",
+            "periodo": "244 días (12:00 hrs a 12:00 hrs)",
+            "moneda": "USD",
+            "descMoneda": "USD",
+            "simboloMoneda": "US$",
+            "partRimac": 100,
+            "tipoTramite": "N",
+            "descTipoTramite": "Nuevo Seguro",
+            "corredor": {
+                "numId": "202",
+                "nombre": "pepito SAC",
+                "nroDocumento": "202",
+                "tipoDocumento": "1",
+                "nomTipoDoc": "RUC",
+                "codRefExterna": "202"
+            },
+            "cliente": [
+                {
+                    "numId": null,
+                    "nombre": "hasta 500 caracteres",
+                    "nroDocumento": "12345678901",
+                    "tipoDocumento": "1",
+                    "nomTipoDoc": "RUC",
+                    "rolCliente": "CONTRATANTE",
+                    "sort": 0
+                },
+                {
+                    "numId": null,
+                    "nombre": "Carlos Andres Mosquera Moreno",
+                    "nroDocumento": "12345678",
+                    "tipoDocumento": "2",
+                    "nomTipoDoc": "DNI",
+                    "rolCliente": "ASEGURADO",
+                    "sort": 1
+                },
+                {
+                    "numId": null,
+                    "nombre": "Carlos Andres Mosquera Moreno",
+                    "nroDocumento": "12345678",
+                    "tipoDocumento": "2",
+                    "nomTipoDoc": "DNI",
+                    "rolCliente": "ASEGURADO_ADICIONAL",
+                    "sort": 2
+                }
+            ],
+            "producto": {
+                "sigla": "RCI",
+                "nombre": "Responsabilidad Civil",
+                "codRefExterna": "1201",
+                "facturacionAnual": null,
+                "planillaAnual": null,
+                "numTrabajadores": null,
+                "montoContrato": null,
+                "duracionContrato": null,
+                "esMayorMaximoDireccion": false,
+                "esBienesAsegurados": false,
+                "direccion": [
+                    {
+                        "descGiro": "RESTAURANTE",
+                        "codOcupacion": 2560,
+                        "descOcupacion": "RESTAURANTE",
+                        "codPais": "428",
+                        "descPais": "PERU",
+                        "codDepartamento": "15",
+                        "descDepartamento": "LIMA",
+                        "codProvincia": "01",
+                        "descProvincia": "LIMA",
+                        "codDistrito": "40",
+                        "descDistrito": "SANTIAGO DE SURCO",
+                        "codTipoVia": "AV",
+                        "descTipoVia": "AVENIDA",
+                        "nombreVia": "JAVIER PRADO ESTE",
+                        "numero": "4488",
+                        "urbanizacion": "",
+                        "referencia": "CERCA A LA COMISARIA",
+                        "direccionCompleta": "AV JAVIER PRADO ESTE N° 4488 - 4500 Mz. B - Lt. 10 OF. 13 Km: 204 BARRIO PUERTO NUEVO ZONA PALMETO CERCA A LA COMISARIA SANTIAGO DE SURCO - LIMA - LIMA - PERU",
+                        "duplicado": false
+                    }
+                ]
+            },
+            "idPlantilla": "96900fd6-114b-43d0-abfc-fd7cd08813f4",
+            "auditoria": {
+                "userCreate": "95960c8f-4bdd-49c1-85ff-6297647c75f4",
+                "dateCreate": {
+                    "date": "2024-05-13T19:54:40.000Z",
+                    "utcOffset": "-05:00"
+                },
+                "userUpdate": "f1d3df2f-1f29-44a9-9995-efc5afde46a9",
+                "dateUpdate": {
+                    "date": "2024-06-14T16:45:23.000Z",
+                    "utcOffset": "-05:00"
+                }
+            }
+        },
+        "plantilla": {
+            "nombre": "RC Trabajos Puntuales hasta US$ 500,000, Deducible diferenciado + DES",
+            "numeroVersion": 1,
+            "tipoEntidad": "SLIP",
+            "idEntidad": "96900fd6-114b-43d0-abfc-fd7cd08813f4",
+            "producto": {
+                "idEntidad": 2,
+                "descripcion": "Responsabilidad Civil"
+            },
+            "descripcion": "RC Trabajos Puntuales hasta US$ 500,000, Deducible diferenciado + DES",
+            "codSolicitud": "2024-00563-RCI",
+            "validado": true,
+            "modulo": [
+                {
+                    "descripcion": "Condiciones particulares",
+                    "idEntidad": "9818b7a2-e864-478a-9efd-ce1c43fe29c2",
+                    "obligatorio": true,
+                    "tipoEntidad": "MODULO",
+                    "contieneDato": true,
+                    "deshabilitado": true,
+                    "contenidoModulo": [
+                        {
+                            "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                            "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f"
+                                    },
+                                    "implementa": {
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "0168f3ba-c2d5-4584-ae59-43511f8beb62",
+                                        "descripcion": "COBERTURAS Y SUMAS ASEGURADAS"
+                                    },
+                                    "descripcion": "Coberturas - RC FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "e1dd9e8b-2b5d-463c-8761-86bbdd91fc52",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "permitirEliminar": false,
+                                            "tipoEstructura": "TABLA",
+                                            "estructura": {
+                                                "idEntidad": "a2dcf15a-a22a-4cb5-8d8f-9c63ce95e172",
+                                                "tipo": "COBERTURA",
+                                                "cabecera": [
+                                                    {
+                                                        "descripcion": "Cobertura Básica",
+                                                        "idEntidad": "6aabdd0e-465c-4a70-8d14-d2061e9678cf"
+                                                    },
+                                                    {
+                                                        "descripcion": "Suma Asegurada",
+                                                        "idEntidad": "96fcff7c-b9b2-4e08-bb9b-bc1584081e10"
+                                                    }
+                                                ],
+                                                "tabla": []
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "58a96dbb-13c8-4acc-b1c5-6641431b6d79"
+                                },
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f"
+                                    },
+                                    "implementa": {
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "0939ef5b-0ed6-47f0-a046-2e821ed50985",
+                                        "descripcion": "MODALIDAD DE SUMA ASEGURADA"
+                                    },
+                                    "descripcion": "Modalidad de suma asegurada - RC FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "314ddd89-9382-4243-9e89-4c791f73d476",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "310ad9db-10d3-4758-b54e-6bb3ad5ad9c4",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "En Agregado Vigencia",
+                                                        "idEntidad": "6356cd38-a3d3-4de2-8a44-976a1281fe14",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "En Agregado Vigencia"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "cf283dca-4799-4763-8872-5f36d001c69f"
+                                },
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f"
+                                    },
+                                    "implementa": {
+                                        "descripcion": "MODALIDAD DE COBERTURA",
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "b4145868-4e50-4dd4-a29b-5109583dfb0a"
+                                    },
+                                    "descripcion": "Modalidad de cobertura - RC FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "25bfde0c-f63f-4598-91ac-047a77233a34",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "4330d4bd-a270-450e-b637-f26da537f895",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "Límite único y combinado",
+                                                        "idEntidad": "68994c2b-bad3-4af8-aa20-35aec07a94ec",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Límite único y combinado"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "e50d11d8-08b6-4c14-82e8-fc78c8064e86"
+                                },
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f"
+                                    },
+                                    "implementa": {
+                                        "descripcion": "DEDUCIBLES (Por todo y cada evento)",
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "98402574-937c-4154-a4e4-7f7c73286ffa"
+                                    },
+                                    "descripcion": "Deducibles - RC FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "dc0621c9-fd82-48e5-a3ae-5df2be337432",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "permitirEliminar": false,
+                                            "tipoEstructura": "TABLA",
+                                            "estructura": {
+                                                "idEntidad": "e159c147-5ad8-4de8-82b9-3057d1fbc899",
+                                                "tipo": "DEDUCIBLE",
+                                                "cabecera": [
+                                                    {
+                                                        "descripcion": "Cobertura",
+                                                        "idEntidad": "34bd153f-53d3-40c0-be0c-cad1cd4bf08d"
+                                                    },
+                                                    {
+                                                        "descripcion": "Deducibles (por todo y cada evento)",
+                                                        "idEntidad": "e2fea752-cd57-4031-8dea-a89fa6438711"
+                                                    }
+                                                ],
+                                                "tabla": [
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "d30e9301-e6e7-4821-83a2-5e813ac684a6",
+                                                                "descripcion": "Daños materiales",
+                                                                "indVisible": true,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "Daños materiales"
+                                                            }
+                                                        ],
+                                                        "id": "7d759330-a830-4ad7-a442-5e6497ad1bf8",
+                                                        "tipoDeducible": {
+                                                            "porcentaje": 15,
+                                                            "rango": "mínimo",
+                                                            "monto": {
+                                                                "idEntidad": "69f96435-af3b-498b-bfa0-da109fe49c4e",
+                                                                "simbolo": "US$",
+                                                                "codigoMoneda": "USD",
+                                                                "cantidad": 1000
+                                                            },
+                                                            "condicion": "montoIndemnizable",
+                                                            "descripcion": "15% del monto indemnizable, mínimo US$ 1,000"
+                                                        },
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "49f7312e-3475-40f7-a8a8-c356c7a9c172",
+                                                                "descripcion": "Daños personales",
+                                                                "indVisible": true,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "Daños personales"
+                                                            }
+                                                        ],
+                                                        "id": "7654f9c9-23da-43ac-91ba-240b78163957",
+                                                        "tipoDeducible": {
+                                                            "porcentaje": 15,
+                                                            "rango": "mínimo",
+                                                            "monto": {
+                                                                "idEntidad": "b15d1289-edd2-45e1-b688-2678985e678c",
+                                                                "simbolo": "US$",
+                                                                "codigoMoneda": "USD",
+                                                                "cantidad": 1000
+                                                            },
+                                                            "condicion": "montoIndemnizable",
+                                                            "descripcion": "15% del monto indemnizable, mínimo US$ 1,000"
+                                                        },
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "00090f22-4d2e-4848-98bf-b8489bea4dc2"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        },
+                        {
+                            "descripcion": "SECCIÓN DESHONESTIDAD",
+                            "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN DESHONESTIDAD",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57"
+                                    },
+                                    "implementa": {
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "0168f3ba-c2d5-4584-ae59-43511f8beb62",
+                                        "descripcion": "COBERTURAS Y SUMAS ASEGURADAS"
+                                    },
+                                    "descripcion": "Coberturas - DESHONESTIDAD FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "b1abd7e0-980a-4de3-b913-ae3871b88f63",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "permitirEliminar": false,
+                                            "tipoEstructura": "TABLA",
+                                            "estructura": {
+                                                "idEntidad": "3614efb2-e487-4e3e-8f09-b5310a3f986c",
+                                                "tipo": "COBERTURA",
+                                                "cabecera": [
+                                                    {
+                                                        "descripcion": "Cobertura Básica",
+                                                        "idEntidad": "6aabdd0e-465c-4a70-8d14-d2061e9678cf"
+                                                    },
+                                                    {
+                                                        "descripcion": "Suma Asegurada",
+                                                        "idEntidad": "96fcff7c-b9b2-4e08-bb9b-bc1584081e10"
+                                                    }
+                                                ],
+                                                "tabla": [
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "25d156e2-626c-4cdf-a714-7a22163f10fa",
+                                                                "descripcion": "Deshonestidad del trabajador",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "Deshonestidad del trabajador"
+                                                            }
+                                                        ],
+                                                        "sumaAsegurada": {
+                                                            "modalidad": [],
+                                                            "monto": {
+                                                                "idEntidad": "b4cae7ea-3a0d-4120-a0b8-fdc0107889ee",
+                                                                "simbolo": "US$",
+                                                                "codigoMoneda": "USD",
+                                                                "cantidad": 20
+                                                            }
+                                                        },
+                                                        "id": "fef0acce-8623-4236-8629-2138bb7cc716",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "e5206ae7-3cb9-41ca-a5b2-7b69179f42de"
+                                },
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN DESHONESTIDAD",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57"
+                                    },
+                                    "implementa": {
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "0939ef5b-0ed6-47f0-a046-2e821ed50985",
+                                        "descripcion": "MODALIDAD DE SUMA ASEGURADA"
+                                    },
+                                    "descripcion": "Modalidad de suma asegurada - DESHONESTIDAD FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "d1615d4d-ff44-4288-8eb5-c90e063ebcbc",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "a203592a-60f7-4bd7-ae11-2242e913762c",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "En Agregado Vigencia",
+                                                        "idEntidad": "6356cd38-a3d3-4de2-8a44-976a1281fe14",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "En Agregado Vigencia"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "1be3554c-b392-4822-af5c-9d4e6d299438"
+                                },
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN DESHONESTIDAD",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57"
+                                    },
+                                    "implementa": {
+                                        "descripcion": "MODALIDAD DE COBERTURA",
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "b4145868-4e50-4dd4-a29b-5109583dfb0a"
+                                    },
+                                    "descripcion": "Modalidad de cobertura - DESHONESTIDAD FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "fcfb7d37-1281-4067-b47d-085688e90861",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "80d8909a-b68a-4ae5-918c-4f199447f43e",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "Límite único y combinado",
+                                                        "idEntidad": "68994c2b-bad3-4af8-aa20-35aec07a94ec",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Límite único y combinado"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "8fd20e23-21b9-4cfa-954b-9005e03a7da6"
+                                },
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN DESHONESTIDAD",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57"
+                                    },
+                                    "implementa": {
+                                        "descripcion": "DEDUCIBLES (Por todo y cada evento)",
+                                        "tipoEntidad": "COMPONENTE",
+                                        "idEntidad": "98402574-937c-4154-a4e4-7f7c73286ffa"
+                                    },
+                                    "descripcion": "Deducibles - DESHONESTIDAD FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "b64b9f55-53c4-4a3c-b073-a1fcbb9fcd85",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "permitirEliminar": false,
+                                            "tipoEstructura": "TABLA",
+                                            "estructura": {
+                                                "idEntidad": "4de088da-a2ae-4b28-9392-1842fed25336",
+                                                "tipo": "DEDUCIBLE",
+                                                "cabecera": [
+                                                    {
+                                                        "descripcion": "Cobertura",
+                                                        "idEntidad": "34bd153f-53d3-40c0-be0c-cad1cd4bf08d"
+                                                    },
+                                                    {
+                                                        "descripcion": "Deducibles (por todo y cada evento)",
+                                                        "idEntidad": "e2fea752-cd57-4031-8dea-a89fa6438711"
+                                                    }
+                                                ],
+                                                "tabla": [
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "25d156e2-626c-4cdf-a714-7a22163f10fa",
+                                                                "descripcion": "Deshonestidad del trabajador",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": true,
+                                                                "textoDescriptivo": "Deshonestidad del trabajador"
+                                                            }
+                                                        ],
+                                                        "tipoDeducible": {
+                                                            "idEntidad": "504ab783-01df-4c66-b473-067f34c483f8",
+                                                            "porcentaje": 20,
+                                                            "rango": "mínimo",
+                                                            "monto": {
+                                                                "simbolo": "US$",
+                                                                "codigoMoneda": "USD",
+                                                                "idEntidad": "43ed891e-081c-4110-a045-1ea845a12357",
+                                                                "cantidad": 1500
+                                                            },
+                                                            "condicion": "montoIndemnizable",
+                                                            "descripcion": "20% del monto indemnizable, mínimo US$ 1,500"
+                                                        },
+                                                        "id": "b9ddf16c-37be-400d-a481-ac5a4f71d8e3",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "e458ee06-9044-4a29-83fd-d2862254a2c5"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        }
+                    ]
+                },
+                {
+                    "descripcion": "Condicionados y cláusulas",
+                    "idEntidad": "f441a0c5-4e5e-4d94-b1e6-9afb3970b1fd",
+                    "obligatorio": true,
+                    "tipoEntidad": "MODULO",
+                    "contieneDato": true,
+                    "deshabilitado": true,
+                    "contenidoModulo": [
+                        {
+                            "descripcion": "Las coberturas y demás términos del presente seguro se sujetan a los condicionados y a las cláusulas que se detallan a continuación y que forman parte integrante de la póliza:",
+                            "idEntidad": "93aa5683-ceee-4fc4-a54a-77d66a089548",
+                            "clasificacion": "SIMPLE",
+                            "tipoEntidad": "ELEMENTO",
+                            "textoDescriptivo": "Las coberturas y demás términos del presente seguro se sujetan a los condicionados y a las cláusulas que se detallan a continuación y que forman parte integrante de la póliza:"
+                        },
+                        {
+                            "descripcion": "APLICABLES A TODAS LAS SECCIONES",
+                            "idEntidad": "fbdb1179-8608-4d8e-952b-c539b59d6d6e",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "APLICABLES A TODAS LAS SECCIONES",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "fbdb1179-8608-4d8e-952b-c539b59d6d6e"
+                                    },
+                                    "descripcion": "Condicionado y cláusulas aplicables a todas las secciones (01)",
+                                    "clasificacionElementos": [
+                                        "CONDICIONADO",
+                                        "CLAUSULA"
+                                    ],
+                                    "idEntidad": "e8f352f4-faf0-452c-bcbd-fbfcd541a245",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "863170a8-8f9c-455d-950d-b91675df0d14",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "idEntidad": "fe482750-532b-4867-b098-289a56e25850",
+                                                        "descripcion": "CGC000 CLÁUSULAS GENERALES DE CONTRATACIÓN",
+                                                        "vigencia": {
+                                                            "from": "2023-06-30T00:00:00.000Z"
+                                                        },
+                                                        "codigo": "CGC000",
+                                                        "indVisible": true,
+                                                        "enSBS": false,
+                                                        "clasificacion": "CLAUSULA",
+                                                        "nombre": "CLÁUSULAS GENERALES DE CONTRATACIÓN",
+                                                        "numeroCambio": 1,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "CGC000 CLÁUSULAS GENERALES DE CONTRATACIÓN"
+                                                    },
+                                                    {
+                                                        "idEntidad": "f2a44df5-9714-4643-92ed-992567eacf53",
+                                                        "descripcion": "CONDICIÓN ESPECIAL DE EXCLUSIÓN DE DAÑOS O PÉRDIDAS O RESPONSABILIDADES RELACIONADAS CON FALLAS EN EL RECONOCIMIENTO ELECTRÓNICO DE FECHAS",
+                                                        "vigencia": {
+                                                            "from": "2021-11-16T00:00:00.000Z"
+                                                        },
+                                                        "rutaArchivo": "condicionados/GEN006_1637119869155.pdf",
+                                                        "codigo": "GEN006",
+                                                        "indVisible": true,
+                                                        "enSBS": true,
+                                                        "clasificacion": "CLAUSULA",
+                                                        "nombre": "CONDICIÓN ESPECIAL DE EXCLUSIÓN DE DAÑOS O PÉRDIDAS O RESPONSABILIDADES RELACIONADAS CON FALLAS EN EL RECONOCIMIENTO ELECTRÓNICO DE FECHAS",
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "GEN006 CONDICIÓN ESPECIAL DE EXCLUSIÓN DE DAÑOS O PÉRDIDAS O RESPONSABILIDADES RELACIONADAS CON FALLAS EN EL RECONOCIMIENTO ELECTRÓNICO DE FECHAS"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "49a8557e-123e-498b-a461-d67e4e451d8a"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        },
+                        {
+                            "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                            "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f"
+                                    },
+                                    "descripcion": "Cláusulas - RCI FACILITY",
+                                    "clasificacionElementos": [
+                                        "CONDICIONADO",
+                                        "CLAUSULA",
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "2d945a22-07bc-4bf6-9e81-d608ee00e487",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "ec3880fa-3dc1-446f-b48b-99438fdaaed5",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "idEntidad": "a837a338-9422-4e11-beff-12440091d74d",
+                                                        "descripcion": "RCI001 SEGURO DE RESPONSABILIDAD CIVIL",
+                                                        "vigencia": {
+                                                            "from": "2021-11-16T00:00:00.000Z"
+                                                        },
+                                                        "rutaArchivo": "condicionados/RCI001_1637118665745.pdf",
+                                                        "codigo": "RCI001",
+                                                        "indVisible": true,
+                                                        "enSBS": true,
+                                                        "clasificacion": "CLAUSULA",
+                                                        "nombre": "SEGURO DE RESPONSABILIDAD CIVIL",
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "RCI001 SEGURO DE RESPONSABILIDAD CIVIL"
+                                                    },
+                                                    {
+                                                        "idEntidad": "e1dde960-c4bc-402e-b42f-4929392b9474",
+                                                        "descripcion": "CLÁUSULA DE RESPONSABILIDAD CIVIL PATRONAL",
+                                                        "vigencia": {
+                                                            "from": "2021-11-16T00:00:00.000Z"
+                                                        },
+                                                        "rutaArchivo": "condicionados/RCI002_1637118811501.pdf",
+                                                        "codigo": "RCI002",
+                                                        "indVisible": true,
+                                                        "enSBS": true,
+                                                        "clasificacion": "CLAUSULA",
+                                                        "nombre": "CLÁUSULA DE RESPONSABILIDAD CIVIL PATRONAL",
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "RCI002 CLÁUSULA DE RESPONSABILIDAD CIVIL PATRONAL"
+                                                    },
+                                                    {
+                                                        "descripcion": "Otras Cláusulas no incorporadas en el Registro de Modelos de Pólizas de Seguros y Notas Técnicas de la SBS, por haber sido, en sus condiciones, materia de negociación integral entre las partes:",
+                                                        "idEntidad": "4a3734a5-1c8e-4a71-98b4-3c2152d3bcb2",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Otras Cláusulas no incorporadas en el Registro de Modelos de Pólizas de Seguros y Notas Técnicas de la SBS, por haber sido, en sus condiciones, materia de negociación integral entre las partes:"
+                                                    },
+                                                    {
+                                                        "descripcion": "LMA5396 - Cláusula Enfermedades Transmisibles",
+                                                        "idEntidad": "9aba3656-7610-417f-a618-6937f9c57332",
+                                                        "vigencia": {
+                                                            "from": "2021-11-16T00:00:00.000Z"
+                                                        },
+                                                        "codigo": "NR0002",
+                                                        "indVisible": true,
+                                                        "enSBS": false,
+                                                        "clasificacion": "CLAUSULA",
+                                                        "nombre": "LMA5396 - Cláusula Enfermedades Transmisibles",
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "NR0002 LMA5396 - Cláusula Enfermedades Transmisibles"
+                                                    },
+                                                    {
+                                                        "descripcion": "IUA 09-081 - Cláusula Exclusión Pérdida Cibernética",
+                                                        "idEntidad": "ed28856e-1765-4a46-b57e-5603e258abda",
+                                                        "vigencia": {
+                                                            "from": "2021-11-16T00:00:00.000Z"
+                                                        },
+                                                        "codigo": "NR0006",
+                                                        "indVisible": true,
+                                                        "enSBS": false,
+                                                        "clasificacion": "CLAUSULA",
+                                                        "nombre": "IUA 09-081 - Cláusula Exclusión Pérdida Cibernética",
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "NR0006 IUA 09-081 - Cláusula Exclusión Pérdida Cibernética"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "77c6dba0-a13f-4ce5-b61f-1ebfb9ec74e2"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        },
+                        {
+                            "descripcion": "SECCIÓN DESHONESTIDAD",
+                            "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN DESHONESTIDAD",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57"
+                                    },
+                                    "descripcion": "Cláusulas - DESHONESTIDAD FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "CONDICIONADO",
+                                        "CLAUSULA",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "cc140c18-49c3-44bc-a00b-1fc74300a28a",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "7f57fa42-c08c-4d98-8890-5e60a881e8d3",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "idEntidad": "7983c8ef-cae4-48ac-b229-1da0e2de4c8f",
+                                                        "descripcion": "Seguro contra Deshonestidad Forma por Cargos - Tipo Ocurrencia",
+                                                        "vigencia": {
+                                                            "from": "2024-03-06T00:00:00.000Z"
+                                                        },
+                                                        "rutaArchivo": "condicionados/DES025_1709765390256.pdf",
+                                                        "codigo": "DES025",
+                                                        "indVisible": true,
+                                                        "enSBS": true,
+                                                        "clasificacion": "CONDICIONADO",
+                                                        "nombre": "Seguro contra Deshonestidad Forma por Cargos - Tipo Ocurrencia",
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "DES025 Seguro contra Deshonestidad Forma por Cargos - Tipo Ocurrencia"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "f696a1e5-7b99-44ee-8a7d-d63a3442901f",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "Otras Cláusulas no incorporadas en el Registro de Modelos de Pólizas de Seguros y Notas Técnicas de la SBS, por haber sido, en sus condiciones, materia de negociación integral entre las partes:",
+                                                        "idEntidad": "4a3734a5-1c8e-4a71-98b4-3c2152d3bcb2",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Otras Cláusulas no incorporadas en el Registro de Modelos de Pólizas de Seguros y Notas Técnicas de la SBS, por haber sido, en sus condiciones, materia de negociación integral entre las partes:"
+                                                    },
+                                                    {
+                                                        "idEntidad": "9a5c595c-be1c-41f7-8a10-d7106e60dff5",
+                                                        "descripcion": "LMA5393 - Cláusula Enfermedades Transmisibles",
+                                                        "vigencia": {
+                                                            "from": "2021-11-17T00:00:00.000Z"
+                                                        },
+                                                        "codigo": "NR0001",
+                                                        "indVisible": true,
+                                                        "enSBS": false,
+                                                        "clasificacion": "CLAUSULA",
+                                                        "nombre": "LMA5393 - Cláusula Enfermedades Transmisibles",
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "NR0001 LMA5393 - Cláusula Enfermedades Transmisibles"
+                                                    },
+                                                    {
+                                                        "idEntidad": "0824d433-2d1e-46fe-9e13-24c13ebc30b0",
+                                                        "descripcion": "NR005 LMA5401  Cláusula Exclusión de Riesgos Cibernéticos y de Datos",
+                                                        "vigencia": {
+                                                            "from": "2021-11-17T00:00:00.000Z"
+                                                        },
+                                                        "codigo": "NR0005",
+                                                        "indVisible": true,
+                                                        "enSBS": false,
+                                                        "clasificacion": "CLAUSULA",
+                                                        "nombre": "LMA5401  Cláusula Exclusión de Riesgos Cibernéticos y de Datos",
+                                                        "numeroCambio": 1,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "NR0005 LMA5401  Cláusula Exclusión de Riesgos Cibernéticos y de Datos"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "9b12028a-6066-462f-9efe-c9a4a611032b"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        }
+                    ]
+                },
+                {
+                    "descripcion": "Condiciones especiales",
+                    "idEntidad": "ea8c856c-174f-41af-939f-93e001d57f8f",
+                    "obligatorio": true,
+                    "tipoEntidad": "MODULO",
+                    "contieneDato": true,
+                    "deshabilitado": true,
+                    "contenidoModulo": [
+                        {
+                            "descripcion": "Las Condiciones Generales, Particulares, Cláusulas y demás términos del presente seguro se sujetan a las condiciones especiales que se detallan a continuación y que forman parte integrante de la póliza:",
+                            "idEntidad": "f127b21e-77cd-4ea0-9785-70e3f2e717f1",
+                            "clasificacion": "SIMPLE",
+                            "tipoEntidad": "ELEMENTO",
+                            "textoDescriptivo": "Las Condiciones Generales, Particulares, Cláusulas y demás términos del presente seguro se sujetan a las condiciones especiales que se detallan a continuación y que forman parte integrante de la póliza:"
+                        },
+                        {
+                            "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                            "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f"
+                                    },
+                                    "descripcion": "Condiciones Especiales - RC FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "9f48612d-b1a5-46f9-8998-0c18fc05bbfc",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "b4a05be9-065b-4c0b-b2f6-077dde450669",
+                                                "estilo": "NUMERADO",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "La póliza también se extiende a cubrir la Responsabilidad  Civil Extracontractual en que incurran los practicantes, vigilantes y trabajadores temporales o permanentes que pertenezcan a personas jurídicas distintas del Asegurado, profesionales o especialistas, cuyos servicios sean cancelados mediante honorarios profesionales, siempre que preste servicios al Asegurado y que tenga una relación continua de dependencia y al que el asegurado tenga el derecho de dirigir permanentemente mientras desempeñe sus labores.",
+                                                        "idEntidad": "2f7bff97-a4d1-422c-91bb-f1b2c6985fc6",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "La póliza también se extiende a cubrir la Responsabilidad  Civil Extracontractual en que incurran los practicantes, vigilantes y trabajadores temporales o permanentes que pertenezcan a personas jurídicas distintas del Asegurado, profesionales o especialistas, cuyos servicios sean cancelados mediante honorarios profesionales, siempre que preste servicios al Asegurado y que tenga una relación continua de dependencia y al que el asegurado tenga el derecho de dirigir permanentemente mientras desempeñe sus labores."
+                                                    },
+                                                    {
+                                                        "descripcion": "Bajo la cobertura de Responsabilidad Civil Patronal se cubre las indemnizaciones que legalmente tuviera que pagar a sus trabajadores por lesiones que activen demandas y/o reclamos amparados por el seguro, en exceso de las indemnizaciones de la seguridad social pública o privada.",
+                                                        "idEntidad": "5499ab0e-81d3-4a5a-b7cb-a5e74d7d3797",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Bajo la cobertura de Responsabilidad Civil Patronal se cubre las indemnizaciones que legalmente tuviera que pagar a sus trabajadores por lesiones que activen demandas y/o reclamos amparados por el seguro, en exceso de las indemnizaciones de la seguridad social pública o privada."
+                                                    },
+                                                    {
+                                                        "descripcion": "La presente póliza también se extiende a cubrir bajo la cobertura de Responsabilidad Civil Patronal cualquier miembro del personal del trabajadores que figure en planillas, incluyendo practicantes, vigilantes y trabajadores temporales o permanentes que pertenezcan a personas jurídicas distintas del Asegurado, profesionales o especialistas, cuyos servicios sean cancelados mediante honorarios profesionales, siempre que preste servicios al Asegurado y que tenga una relación continua de dependencia y al que el asegurado tenga el derecho de dirigir permanentemente mientras desempeñe sus labores.",
+                                                        "idEntidad": "cf9495c3-00ea-432b-bc3c-9915f78e1210",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "La presente póliza también se extiende a cubrir bajo la cobertura de Responsabilidad Civil Patronal cualquier miembro del personal del trabajadores que figure en planillas, incluyendo practicantes, vigilantes y trabajadores temporales o permanentes que pertenezcan a personas jurídicas distintas del Asegurado, profesionales o especialistas, cuyos servicios sean cancelados mediante honorarios profesionales, siempre que preste servicios al Asegurado y que tenga una relación continua de dependencia y al que el asegurado tenga el derecho de dirigir permanentemente mientras desempeñe sus labores."
+                                                    },
+                                                    {
+                                                        "descripcion": "Definición de Asegurado Adicional: Persona o entidad incorporada al amparo y extensión de la póliza, el cual, de igual manera que el Asegurado Principal, es cubierto ante un eventual reclamo y/o demanda presentada por terceros contra el asegurado adicional solo por aquellos daños surgidos producto de las operaciones y/o actividades del asegurado principal o contratante. Se encuentran excluidos de cobertura todos aquellos daños ocasionados directamente por el asegurado adicional, quienes asumirán su responsabilidad bajo su propia póliza de Responsabilidad Civil.",
+                                                        "idEntidad": "0e4ada11-842d-47f9-997a-4fbe8851c252",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Definición de Asegurado Adicional: Persona o entidad incorporada al amparo y extensión de la póliza, el cual, de igual manera que el Asegurado Principal, es cubierto ante un eventual reclamo y/o demanda presentada por terceros contra el asegurado adicional solo por aquellos daños surgidos producto de las operaciones y/o actividades del asegurado principal o contratante. Se encuentran excluidos de cobertura todos aquellos daños ocasionados directamente por el asegurado adicional, quienes asumirán su responsabilidad bajo su propia póliza de Responsabilidad Civil."
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "2c14a346-54a8-48f8-af2e-7beb5327976c"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        },
+                        {
+                            "descripcion": "SECCIÓN DESHONESTIDAD",
+                            "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN DESHONESTIDAD",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57"
+                                    },
+                                    "descripcion": "Condiciones Especiales - DESHONESTIDAD FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "9482ebb4-7a23-405b-8369-35febb0a0703",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "e2ddb7e4-9740-4c5b-9286-8be8f607ad86",
+                                                "estilo": "NUMERADO",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "Definición de asegurado Adicional: \nPersona natural o jurídica incorporada en la póliza, la cual cuenta con las mismas coberturas que el Asegurado Principal sobre los bienes de su propiedad conforme los términos y condiciones establecidos en la presente póliza, y que se encuentran en el Lugar del Seguro declarado por el Asegurado principal y/o subsidiarias. La cobertura otorgada se limitará solamente a aquellos daños surgidos como consecuencia de la ejecución de las operaciones y/o actividades del Asegurado Principal o subsidiarias. \nSe encuentran excluidos de cobertura todos aquellos daños ocasionados sobre la materia asegurada en el Lugar del Seguro, como consecuencia de la ejecución de operaciones y/o actividades realizadas por el Asegurado Adicional. \nAsimismo, RIMAC se reserva el derecho de subrogación contra el Asegurado Adicional en caso de que por la ejecución o realización de sus operaciones dentro del Lugar del Seguro se generan daños contra los bienes asegurados del Asegurado Principal.",
+                                                        "idEntidad": "b79815c7-e9e3-498c-ac4f-996545900993",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Definición de asegurado Adicional: \nPersona natural o jurídica incorporada en la póliza, la cual cuenta con las mismas coberturas que el Asegurado Principal sobre los bienes de su propiedad conforme los términos y condiciones establecidos en la presente póliza, y que se encuentran en el Lugar del Seguro declarado por el Asegurado principal y/o subsidiarias. La cobertura otorgada se limitará solamente a aquellos daños surgidos como consecuencia de la ejecución de las operaciones y/o actividades del Asegurado Principal o subsidiarias. \nSe encuentran excluidos de cobertura todos aquellos daños ocasionados sobre la materia asegurada en el Lugar del Seguro, como consecuencia de la ejecución de operaciones y/o actividades realizadas por el Asegurado Adicional. \nAsimismo, RIMAC se reserva el derecho de subrogación contra el Asegurado Adicional en caso de que por la ejecución o realización de sus operaciones dentro del Lugar del Seguro se generan daños contra los bienes asegurados del Asegurado Principal."
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "d0ea3057-afbc-4ee4-be12-f165da14538e"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        }
+                    ]
+                },
+                {
+                    "descripcion": "Exclusiones",
+                    "idEntidad": "0dda2832-4ef5-4d8c-8c97-3b12ab936556",
+                    "obligatorio": true,
+                    "tipoEntidad": "MODULO",
+                    "contieneDato": true,
+                    "deshabilitado": true,
+                    "contenidoModulo": [
+                        {
+                            "descripcion": "En adición a las exclusiones estipuladas en las Cláusulas Generales de Contratación, Condiciones Generales del Riesgo, Cláusulas, Condiciones Particulares y Anexos se deja constancia que se excluye:",
+                            "idEntidad": "170c3b77-8bf9-454c-a772-a9d53ae69e96",
+                            "clasificacion": "SIMPLE",
+                            "numeroCambio": 0,
+                            "tipoEntidad": "ELEMENTO",
+                            "textoDescriptivo": "En adición a las exclusiones estipuladas en las Cláusulas Generales de Contratación, Condiciones Generales del Riesgo, Cláusulas, Condiciones Particulares y Anexos se deja constancia que se excluye:"
+                        },
+                        {
+                            "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                            "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f"
+                                    },
+                                    "descripcion": "Exclusiones - RCI FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "19f377ec-0a0f-4d8c-9820-23ee415f9c12",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "b9b1337c-ff0a-4b4d-8e8a-1faa015643f7",
+                                                "estilo": "NUMERADO",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "Acoso sexual, abuso deshonesto y todo tipo de discriminación.",
+                                                        "idEntidad": "9f283d30-401a-4674-a516-f1f0dcb75769",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Acoso sexual, abuso deshonesto y todo tipo de discriminación."
+                                                    },
+                                                    {
+                                                        "descripcion": "Actos de Dios, Fuerza Mayor, Actos de la Naturaleza.",
+                                                        "idEntidad": "9a904425-737a-4b4d-97a9-29fc46e18900",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Actos de Dios, Fuerza Mayor, Actos de la Naturaleza."
+                                                    },
+                                                    {
+                                                        "descripcion": "Campos Electromagnéticos",
+                                                        "idEntidad": "a407e2c8-9201-4b18-805d-2108f97cf7c9",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Campos Electromagnéticos"
+                                                    },
+                                                    {
+                                                        "descripcion": "Contaminación y/o polución gradual",
+                                                        "idEntidad": "7db5371a-5ae1-4726-8851-29f282c99417",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Contaminación y/o polución gradual"
+                                                    },
+                                                    {
+                                                        "descripcion": "Cualquier violación de derechos de privacidad",
+                                                        "idEntidad": "35cdca63-8a3f-47c2-874f-b0fbdf860dab",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Cualquier violación de derechos de privacidad"
+                                                    },
+                                                    {
+                                                        "descripcion": "Culpa grave e inexcusable de la víctima",
+                                                        "idEntidad": "c7d7d910-229a-4aa2-95e9-ecb26591f6a2",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Culpa grave e inexcusable de la víctima"
+                                                    },
+                                                    {
+                                                        "descripcion": "Dolo y actos malintencionados",
+                                                        "idEntidad": "109e3363-9a3b-4f82-8648-8dd947a2a13e",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Dolo y actos malintencionados"
+                                                    },
+                                                    {
+                                                        "descripcion": "Daño moral sin daño físico, angustia mental.",
+                                                        "idEntidad": "b9fee7f5-b99c-4d31-8ac5-b8dfc7cf41f2",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Daño moral sin daño físico, angustia mental."
+                                                    },
+                                                    {
+                                                        "descripcion": "Daños a bienes bajo cargo, custodia, control y cuidado del asegurado.",
+                                                        "idEntidad": "6335126d-0f46-46bb-86f1-239683138892",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Daños a bienes bajo cargo, custodia, control y cuidado del asegurado."
+                                                    },
+                                                    {
+                                                        "descripcion": "Daños a los bienes trabajados.",
+                                                        "idEntidad": "ff5c0212-cb41-4048-be53-2166103a1b4e",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Daños a los bienes trabajados."
+                                                    },
+                                                    {
+                                                        "descripcion": "Daños a las máquinas, herramientas y/o equipos utilizados para los trabajos.",
+                                                        "idEntidad": "7d9b4472-44a5-4de5-8391-6b13d3059829",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Daños a las máquinas, herramientas y/o equipos utilizados para los trabajos."
+                                                    },
+                                                    {
+                                                        "descripcion": "Daños causados por afectaciones de sistemas de cómputo, transmisión de virus.",
+                                                        "idEntidad": "a022c97c-84e1-40a2-bdde-6553eb25fd83",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Daños causados por afectaciones de sistemas de cómputo, transmisión de virus."
+                                                    },
+                                                    {
+                                                        "descripcion": "Daños o pérdida de dinero, documentos, valores, joyas y obras de arte.",
+                                                        "idEntidad": "2877072d-ebaa-4a21-b8ab-9dc3173b6469",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Daños o pérdida de dinero, documentos, valores, joyas y obras de arte."
+                                                    },
+                                                    {
+                                                        "descripcion": "Difamación, calumnia, infamia, declaraciones con carácter ofensivo",
+                                                        "idEntidad": "0b5f76d7-b9bd-47c8-b729-ebb554c5e39f",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Difamación, calumnia, infamia, declaraciones con carácter ofensivo"
+                                                    },
+                                                    {
+                                                        "descripcion": "Enfermedades profesionales",
+                                                        "idEntidad": "1381790b-6b81-4bc5-9fa6-320b49ef2acb",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Enfermedades profesionales"
+                                                    },
+                                                    {
+                                                        "descripcion": "Mala Praxis, SIDA, SARSA, hepatitis, bancos de sangre.",
+                                                        "idEntidad": "a8abc39a-ef17-4fa5-bf56-9c923ac7c77c",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Mala Praxis, SIDA, SARSA, hepatitis, bancos de sangre."
+                                                    },
+                                                    {
+                                                        "descripcion": "Multas y daños punitivos ejemplares",
+                                                        "idEntidad": "99f6c73f-d254-456a-a72b-91fed117bfce",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Multas y daños punitivos ejemplares"
+                                                    },
+                                                    {
+                                                        "descripcion": "Pérdidas financieras puras.",
+                                                        "idEntidad": "1e9e9dd2-4392-422a-8ab6-bed59076274f",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Pérdidas financieras puras."
+                                                    },
+                                                    {
+                                                        "descripcion": "Piratería y aprobación de títulos o lemas ajenos.",
+                                                        "idEntidad": "f60edbd1-77f3-40d0-b6a7-1247ead1ce8f",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Piratería y aprobación de títulos o lemas ajenos."
+                                                    },
+                                                    {
+                                                        "descripcion": "Responsabilidad Civil para Directores y Funcionarios (D&O)",
+                                                        "idEntidad": "96be96c0-06dd-4287-9fde-2b2c07bf618b",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Responsabilidad Civil para Directores y Funcionarios (D&O)"
+                                                    },
+                                                    {
+                                                        "descripcion": "Responsabilidad Civil profesional / Errores y Omisiones (E&O)",
+                                                        "idEntidad": "a2749c14-cc36-47ba-bc47-80d73ebd01bd",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Responsabilidad Civil profesional / Errores y Omisiones (E&O)"
+                                                    },
+                                                    {
+                                                        "descripcion": "Reclamaciones derivadas del incumplimiento total o parcial o por mora de la obligación principal de convenios y contratos.",
+                                                        "idEntidad": "cf1c0c69-ada0-47da-9038-661f7a4765fe",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Reclamaciones derivadas del incumplimiento total o parcial o por mora de la obligación principal de convenios y contratos."
+                                                    },
+                                                    {
+                                                        "descripcion": "Responsabilidad Civil Aviación. Daños a aeronaves y/o sus piezas y/o sus partes.",
+                                                        "idEntidad": "6988a185-e648-4982-94fd-910fd96b5412",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Responsabilidad Civil Aviación. Daños a aeronaves y/o sus piezas y/o sus partes."
+                                                    },
+                                                    {
+                                                        "descripcion": "Responsabilidad Civil en caso de infidelidad de empleados y riesgos financieros.",
+                                                        "idEntidad": "ff6a28d0-8975-4fcb-96d2-753acfc044a3",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Responsabilidad Civil en caso de infidelidad de empleados y riesgos financieros."
+                                                    },
+                                                    {
+                                                        "descripcion": "Responsabilidad Civil Marítima, Responsabilidad Civil Fluvial. Daños a embarcaciones y/o sus piezas y/o sus partes.",
+                                                        "idEntidad": "9dbe0633-8e05-424e-bb9c-7d8e4267e180",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Responsabilidad Civil Marítima, Responsabilidad Civil Fluvial. Daños a embarcaciones y/o sus piezas y/o sus partes."
+                                                    },
+                                                    {
+                                                        "descripcion": "Robo y/o hurto y/o desaparición misteriosa.",
+                                                        "idEntidad": "15dfe21d-babd-43da-a76d-57365e1eb6f4",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Robo y/o hurto y/o desaparición misteriosa."
+                                                    },
+                                                    {
+                                                        "descripcion": "Secuestros y desaparición de personas.",
+                                                        "idEntidad": "4ff94354-69ea-4bb2-a5af-6b3edcc8b801",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Secuestros y desaparición de personas."
+                                                    },
+                                                    {
+                                                        "descripcion": "Uso indebido de armas de fuego (que no se utilicen por personal de seguridad en sus tareas específicas de vigilancias).",
+                                                        "idEntidad": "1e78a109-26b8-49dc-99bf-510953ce37b0",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Uso indebido de armas de fuego (que no se utilicen por personal de seguridad en sus tareas específicas de vigilancias)."
+                                                    },
+                                                    {
+                                                        "descripcion": "Violación de derechos de publicación de terceros.",
+                                                        "idEntidad": "ecccaf73-c784-4d5e-80ae-06eef64d223e",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Violación de derechos de publicación de terceros."
+                                                    },
+                                                    {
+                                                        "descripcion": "Asbestos, Urea de Formaldehide, PCBs, PCNBs, Askarel, plomo, hidrocarburos clorinados, tabaco, dioxinas, dimetil, isocianatos.",
+                                                        "idEntidad": "6ed81dad-9add-4bc5-b0b9-847b610ca55d",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Asbestos, Urea de Formaldehide, PCBs, PCNBs, Askarel, plomo, hidrocarburos clorinados, tabaco, dioxinas, dimetil, isocianatos."
+                                                    },
+                                                    {
+                                                        "descripcion": "Daños a la obra trabajado.",
+                                                        "idEntidad": "b209ffe2-9366-44a7-bada-324ac3cc539a",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Daños a la obra trabajado."
+                                                    },
+                                                    {
+                                                        "descripcion": "Daños a pozos petroleros, daños a tanques petroleros.",
+                                                        "idEntidad": "5d2d1d25-550c-490e-924a-e5c52b3d881c",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Daños a pozos petroleros, daños a tanques petroleros."
+                                                    },
+                                                    {
+                                                        "descripcion": "Falla / Variación en el suministro de energía eléctrica, gas, agua y/o cable de TV.",
+                                                        "idEntidad": "a6011d44-e9a8-446c-a6e4-6c2985c78437",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Falla / Variación en el suministro de energía eléctrica, gas, agua y/o cable de TV."
+                                                    },
+                                                    {
+                                                        "descripcion": "Guerra, guerra civil, motín, huelga, alboroto popular, lock out, conmoción civil, actos de terrorismo.",
+                                                        "idEntidad": "a3034319-f542-4541-99d3-52d41b6e2500",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Guerra, guerra civil, motín, huelga, alboroto popular, lock out, conmoción civil, actos de terrorismo."
+                                                    },
+                                                    {
+                                                        "descripcion": "Trabajos en minas, lotes petroleros, puertos, trabajos en altura, excavaciones, demoliciones, y cualquier actividad relacionada a la explotación de hidrocarburos, defensas ribereñas y off shore o debajo del nivel de la superficie terrestre.",
+                                                        "idEntidad": "7a34d0f1-3ea7-4573-9ed1-480c1ef4cd03",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Trabajos en minas, lotes petroleros, puertos, trabajos en altura, excavaciones, demoliciones, y cualquier actividad relacionada a la explotación de hidrocarburos, defensas ribereñas y off shore o debajo del nivel de la superficie terrestre."
+                                                    },
+                                                    {
+                                                        "descripcion": "Trabajos de Vigilancia y/o guardianía.",
+                                                        "idEntidad": "ee90b918-8e9d-47b6-9dea-da60c1ef4d90",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Trabajos de Vigilancia y/o guardianía."
+                                                    },
+                                                    {
+                                                        "descripcion": "Trabajos que durante el curso de sus funciones habituales tienen acceso a manejo, o control de mercaderías, dinero en efectivo, título o valores, nóminas o que custodien el local dónde opera el asegurado.",
+                                                        "idEntidad": "023b17c4-af1d-4f93-9f98-175e4352e2d3",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Trabajos que durante el curso de sus funciones habituales tienen acceso a manejo, o control de mercaderías, dinero en efectivo, título o valores, nóminas o que custodien el local dónde opera el asegurado."
+                                                    },
+                                                    {
+                                                        "descripcion": "Trabajos de mensajería.",
+                                                        "idEntidad": "2c78c2fd-7364-4b43-9823-2f8248a9f565",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Trabajos de mensajería."
+                                                    },
+                                                    {
+                                                        "descripcion": "Daños a bienes que están siendo transportados por el Asegurado y al medio de transporte involucrado.",
+                                                        "idEntidad": "ac4760b3-6a00-401d-ad54-ae5dc2496414",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Daños a bienes que están siendo transportados por el Asegurado y al medio de transporte involucrado."
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "b1b3dd7d-4877-4058-a967-f5eeb3f8d176"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        },
+                        {
+                            "descripcion": "SECCIÓN DESHONESTIDAD",
+                            "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN DESHONESTIDAD",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "f4eff00d-cf37-4ade-86bf-6c393b322e57"
+                                    },
+                                    "descripcion": "Exclusiones - DESHONESTIDAD FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "72ad4ce3-f7db-497c-9973-869f012ed948",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "ef612cb2-991c-4a8d-96ca-b4b80a55c120",
+                                                "estilo": "NUMERADO",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "Trabajos en minas, lotes petroleros, puertos, trabajos en altura, excavaciones, demoliciones, y cualquier actividad relacionada a la explotación de hidrocarburos, defensas ribereñas y off shore o debajo del nivel de la superficie terrestre.",
+                                                        "idEntidad": "7a34d0f1-3ea7-4573-9ed1-480c1ef4cd03",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Trabajos en minas, lotes petroleros, puertos, trabajos en altura, excavaciones, demoliciones, y cualquier actividad relacionada a la explotación de hidrocarburos, defensas ribereñas y off shore o debajo del nivel de la superficie terrestre."
+                                                    },
+                                                    {
+                                                        "descripcion": "Trabajos de Vigilancia y/o guardianía.",
+                                                        "idEntidad": "ee90b918-8e9d-47b6-9dea-da60c1ef4d90",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Trabajos de Vigilancia y/o guardianía."
+                                                    },
+                                                    {
+                                                        "descripcion": "Trabajos que durante el curso de sus funciones habituales tienen acceso a manejo, o control de mercaderías, dinero en efectivo, título o valores, nóminas o que custodien el local dónde opera el asegurado.",
+                                                        "idEntidad": "023b17c4-af1d-4f93-9f98-175e4352e2d3",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Trabajos que durante el curso de sus funciones habituales tienen acceso a manejo, o control de mercaderías, dinero en efectivo, título o valores, nóminas o que custodien el local dónde opera el asegurado."
+                                                    },
+                                                    {
+                                                        "descripcion": "Trabajos de mensajería.",
+                                                        "idEntidad": "2c78c2fd-7364-4b43-9823-2f8248a9f565",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Trabajos de mensajería."
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "44455592-779d-4507-b60d-8e5029ff3e25"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        }
+                    ]
+                },
+                {
+                    "descripcion": "Primas",
+                    "idEntidad": "64217bf8-0855-4c02-9a43-6b06317edb13",
+                    "obligatorio": true,
+                    "tipoEntidad": "MODULO",
+                    "contieneDato": true,
+                    "deshabilitado": true,
+                    "contenidoModulo": [
+                        {
+                            "descripcion": "APLICABLES A TODAS LAS SECCIONES",
+                            "idEntidad": "fbdb1179-8608-4d8e-952b-c539b59d6d6e",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "reglas": {
+                                        "1b48b6f3-3ad4-4b03-826b-4631c1f8e472": {
+                                            "tipo": "calculo",
+                                            "idElemento": "66603034-c21e-4c8a-a5af-f43ba88890fc",
+                                            "comentario": "prima",
+                                            "idEstructura": "eee8a9f4-3292-4296-9e47-ba3664ee1237"
+                                        },
+                                        "4edba738-2c7b-4401-ba71-feba4d139bbd": {
+                                            "tipo": "calculo",
+                                            "idElemento": "31222f16-33ee-4b95-bc6e-191f70a0bc68",
+                                            "comentario": "prima",
+                                            "idEstructura": "eee8a9f4-3292-4296-9e47-ba3664ee1237"
+                                        },
+                                        "1384632a-628b-4f84-99ab-2dca75335b01": {
+                                            "tipo": "calculo",
+                                            "idElemento": "b9a5e9f1-73ec-44d8-90b3-efc04f7a9066",
+                                            "comentario": "prima",
+                                            "idEstructura": "eee8a9f4-3292-4296-9e47-ba3664ee1237"
+                                        }
+                                    },
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f"
+                                    },
+                                    "descripcion": "Primas - RCI FACILITYa",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "45a02e58-43e7-4adf-bb81-00ccc77c3259",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "permitirEliminar": false,
+                                            "tipoEstructura": "TABLA",
+                                            "estructura": {
+                                                "idEntidad": "eee8a9f4-3292-4296-9e47-ba3664ee1237",
+                                                "tipo": "PRIMA",
+                                                "cabecera": [
+                                                    {
+                                                        "descripcion": "Descripción",
+                                                        "idEntidad": "bf68e55e-8221-420b-a2d6-80c0028a4524"
+                                                    },
+                                                    {
+                                                        "descripcion": "Valor",
+                                                        "idEntidad": "b3bbc8c5-3fea-497e-9d0d-d2d875c26102"
+                                                    }
+                                                ],
+                                                "tabla": [
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "6cae7bd0-25f4-4a61-a94a-e1407381ceb3",
+                                                                "descripcion": "Prima Neta Vigencia",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": false,
+                                                                "textoDescriptivo": "Prima Neta Vigencia"
+                                                            }
+                                                        ],
+                                                        "monto": {
+                                                            "simbolo": "US$",
+                                                            "codigoMoneda": "USD",
+                                                            "idEntidad": "dd2d8afe-8752-44e7-b828-b4333b680ec7",
+                                                            "cantidad": 0
+                                                        },
+                                                        "id": "05e424ef-ee2f-406d-af73-7362d6b0338d",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "b9a5e9f1-73ec-44d8-90b3-efc04f7a9066",
+                                                                "descripcion": "Derecho de Emisión",
+                                                                "indVisible": true,
+                                                                "indVisibleHabilitado": false,
+                                                                "infoCalculo": {
+                                                                    "tipoCalculo": "CALCULO_PRIMA",
+                                                                    "accionEditar": false,
+                                                                    "accionCalcular": true,
+                                                                    "formulaS": "= (Prima Neta Vigencia)*0.03"
+                                                                },
+                                                                "textoDescriptivo": "Derecho de Emisión"
+                                                            }
+                                                        ],
+                                                        "monto": {
+                                                            "simbolo": "US$",
+                                                            "codigoMoneda": "USD",
+                                                            "idEntidad": "9ab8063e-6533-4bff-a153-0a47c29c12d2",
+                                                            "cantidad": 0,
+                                                            "cantidadRaw": 0
+                                                        },
+                                                        "id": "d40ee91f-d619-43b2-8df9-94f9921274fa",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "31222f16-33ee-4b95-bc6e-191f70a0bc68",
+                                                                "descripcion": "Prima Comercial",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 1,
+                                                                "indVisibleHabilitado": false,
+                                                                "infoCalculo": {
+                                                                    "tipoCalculo": "CALCULO_PRIMA",
+                                                                    "accionEditar": false,
+                                                                    "accionCalcular": true,
+                                                                    "formulaS": "= (Prima Neta Vigencia)+(Derecho de Emisión)"
+                                                                },
+                                                                "textoDescriptivo": "Prima Comercial"
+                                                            }
+                                                        ],
+                                                        "monto": {
+                                                            "simbolo": "US$",
+                                                            "codigoMoneda": "USD",
+                                                            "idEntidad": "75a9f6ed-2d6b-4ec3-8cbb-cb9b50bc9e7f",
+                                                            "cantidad": 0,
+                                                            "cantidadRaw": 0
+                                                        },
+                                                        "id": "fa92c5fc-9ce4-46ba-88f1-2e3474400d31",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    },
+                                                    {
+                                                        "descripcion": [
+                                                            {
+                                                                "idEntidad": "66603034-c21e-4c8a-a5af-f43ba88890fc",
+                                                                "descripcion": "Prima Comercial Vigencia + I.G.V.",
+                                                                "indVisible": true,
+                                                                "numeroCambio": 0,
+                                                                "indVisibleHabilitado": false,
+                                                                "infoCalculo": {
+                                                                    "tipoCalculo": "CALCULO_PRIMA",
+                                                                    "accionEditar": false,
+                                                                    "accionCalcular": true,
+                                                                    "formulaS": "= (Prima Comercial)*1.18"
+                                                                },
+                                                                "textoDescriptivo": "Prima Comercial Vigencia + I.G.V."
+                                                            }
+                                                        ],
+                                                        "monto": {
+                                                            "simbolo": "US$",
+                                                            "codigoMoneda": "USD",
+                                                            "idEntidad": "7f50c55e-c617-4632-b1bf-5cb677ccef5a",
+                                                            "cantidad": 0,
+                                                            "cantidadRaw": 0
+                                                        },
+                                                        "id": "7d235624-502e-4673-b301-67b057cf4af3",
+                                                        "ocultar": true,
+                                                        "reemplazo": false
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "d76b3bd5-2b53-46c0-b475-db6a27eebb39"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        }
+                    ]
+                },
+                {
+                    "descripcion": "Condiciones aplicables a toda la cotización",
+                    "idEntidad": "3315e657-8b4f-4c63-9ffc-3bab438d3962",
+                    "obligatorio": true,
+                    "tipoEntidad": "MODULO",
+                    "contieneDato": true,
+                    "deshabilitado": true,
+                    "contenidoModulo": [
+                        {
+                            "descripcion": "APLICABLES A TODAS LAS SECCIONES",
+                            "idEntidad": "fbdb1179-8608-4d8e-952b-c539b59d6d6e",
+                            "tipoEntidad": "SECCION",
+                            "obligatorio": true,
+                            "data": [
+                                {
+                                    "tipoEntidad": "CATALOGO",
+                                    "pertenece": {
+                                        "descripcion": "SECCIÓN RESPONSABILIDAD CIVIL",
+                                        "tipoEntidad": "SECCION",
+                                        "idEntidad": "a384b189-647e-4b9e-b3c1-7a1e69a3591f"
+                                    },
+                                    "descripcion": "Condiciones aplicables a toda la cotización - RCI FACILITY",
+                                    "clasificacionElementos": [
+                                        "SIMPLE",
+                                        "ESPECIAL"
+                                    ],
+                                    "idEntidad": "50504c54-851c-4e0f-89c1-a1a160d7db90",
+                                    "cuerpoCatalogo": [
+                                        {
+                                            "tipoEstructura": "LISTA",
+                                            "permitirEliminar": false,
+                                            "estructura": {
+                                                "idEntidad": "2e0de5cb-a830-4728-9086-6b04cfb945d0",
+                                                "estilo": "NINGUNA",
+                                                "lista": [
+                                                    {
+                                                        "descripcion": "La presente cotización tiene una validez de quince (15) días, contados a partir de la fecha.",
+                                                        "idEntidad": "9cda5326-17ad-4f9f-a5df-d047016bcc47",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "La presente cotización tiene una validez de quince (15) días, contados a partir de la fecha."
+                                                    },
+                                                    {
+                                                        "descripcion": "De acuerdo con lo establecido en la Ley de Contrato de Seguro, Ley 29946 y sus Reglamentos, el contrato de seguro queda celebrado por el consentimiento de las partes.",
+                                                        "idEntidad": "ed47256d-eef9-4796-ba71-6f1dee6e0de2",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "De acuerdo con lo establecido en la Ley de Contrato de Seguro, Ley 29946 y sus Reglamentos, el contrato de seguro queda celebrado por el consentimiento de las partes."
+                                                    },
+                                                    {
+                                                        "descripcion": "La información contenida en este documento no representa el consentimiento de Rímac Seguros y Reaseguros para la celebración de un contrato de Seguros.",
+                                                        "idEntidad": "45fbdf47-77ba-4f09-8f58-51fd9493f359",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "La información contenida en este documento no representa el consentimiento de Rímac Seguros y Reaseguros para la celebración de un contrato de Seguros."
+                                                    },
+                                                    {
+                                                        "descripcion": "Las condiciones antes detalladas quedan sujetas al no deterioro de la siniestralidad antes del inicio de la vigencia.",
+                                                        "idEntidad": "62e576c4-c271-4b7f-a459-492ad7d0df0f",
+                                                        "clasificacion": "SIMPLE",
+                                                        "indVisible": true,
+                                                        "numeroCambio": 0,
+                                                        "tipoEntidad": "ELEMENTO",
+                                                        "indVisibleHabilitado": true,
+                                                        "ocultar": true,
+                                                        "reemplazo": false,
+                                                        "textoDescriptivo": "Las condiciones antes detalladas quedan sujetas al no deterioro de la siniestralidad antes del inicio de la vigencia."
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "idCatalogoOriginal": "36629b0c-c5e7-46f2-adcb-342168e6a9fb"
+                                }
+                            ],
+                            "dataTextoLibre": [],
+                            "deshabilitado": false
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

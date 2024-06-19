@@ -1,0 +1,17 @@
+{
+    "predicates": [{
+        "and": [
+            <% include ../../shared/match_request.ejs  %>,
+            {
+                 "contains": { "path": "c28eed58-8058-403d-a12e-22668e2039a7" }
+            }
+        ]
+    }],
+    "responses": [{
+        "is": {
+            "statusCode": 200,
+             "headers": <% include ../../shared/header.json %>,
+            "body": <% include ./body.json  %>
+        }
+    }]
+}
