@@ -1,0 +1,17 @@
+{					
+  "payload": {					
+    "catalogo": {					
+      "idCatalogo": "d8efba5c-2e4d-4afc-b7f4-3c9512709298",					
+      "idTabla": "3dea9588-0c82-4cd5-97b2-b575ec964000",					
+      "tabla": {					
+        "idEntidad": "83c4eb5f-0f59-46da-849f-aae6830f6536"					
+      }					
+    },					
+    "codSolicitud": "2024-00006-CAR",					
+    "version": 1,					
+    "fromPlantilla": true,					
+    "reglas": {					
+      "ejecutar": true					
+    }					
+  }					
+}					

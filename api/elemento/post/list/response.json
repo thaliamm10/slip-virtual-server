@@ -1,0 +1,16 @@
+{				
+    "payload": {	
+      "estado": "EXITOSO",					
+      "mensaje": "Se encontaron coincidencias en la búsqueda",					
+       "data": [				
+            {				
+                "descripcion": "Cumplimiento de las Recomendaciones de los estudios geotécnicos o de subsuelos realizado para este proyecto específico.",				
+                "idEntidad": "b8728280-9551-4b8a-97d4-dc70825cd637",				
+                "clasificacion": "SIMPLE",				
+                "indVisible": true,				
+                "tipoEntidad": "ELEMENTO",				
+                "textoDescriptivo": "Cumplimiento de las Recomendaciones de los estudios geotécnicos o de subsuelos realizado para este proyecto específico."				
+            }				
+        ]				
+    }				
+}				

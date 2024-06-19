@@ -1,0 +1,43 @@
+{		
+  "payload": {		
+    "catalogo": {		
+      "idCatalogo": "d8efba5c-2e4d-4afc-b7f4-3c9512709298",		
+      "idTabla": "3dea9588-0c82-4cd5-97b2-b575ec964000",		
+      "tabla": [		
+        {		
+          "id": "e48a38e2-62dc-4cf2-91e3-ba1a1737ed9b",		
+          "descripcion": [		
+            {		
+              "descripcion": "\"A\" Cobertura Básica (excluye Robo)",		
+              "esActivo": true,		
+              "tipoEntidad": "ELEMENTO",		
+              "idEntidad": "f99cb4f3-5763-4bc1-bbef-164a97f42464",		
+              "etiqueta": {		
+                "modulo": [],		
+                "seccion": []		
+              },		
+              "clasificacion": "SIMPLE",		
+              "textoDescriptivo": "\"A\" Cobertura Básica (excluye Robo)",		
+              "isSelected": true		
+            }		
+          ],		
+          "sumaAsegurada": {		
+            "monto": {		
+              "idEntidad": "ef54f673-e346-4991-b322-998c802cb677",		
+              "cantidad": 100,		
+              "simbolo": "US$",		
+              "codigoMoneda": "USD"		
+            },		
+            "modalidad": []		
+          }		
+        }		
+      ]		
+    },		
+    "codSolicitud": "2024-00006-CAR",		
+    "version": 1,		
+    "fromPlantilla": true,		
+    "reglas": {		
+      "ejecutar": true		
+    }		
+  }		
+}		

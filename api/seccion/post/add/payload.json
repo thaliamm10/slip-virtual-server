@@ -1,0 +1,15 @@
+{	
+  "payload": {	
+    "plantilla": {	
+      "idPlantilla": "d7dd8d81-eb6a-4e3b-bf46-d701c98f7528",	
+      "idModulo": "64217bf8-0855-4c02-9a43-6b06317edb13",	
+      "seccion": [	
+        {	
+          "idEntidad": "87d33388-210b-4a4f-92be-9d37d04f3627",	
+          "descripcion": "APLICABLES A TODAS LAS SECCIONES"	
+        }	
+      ]	
+    },	
+    "ocultar": true	
+  }	
+}	

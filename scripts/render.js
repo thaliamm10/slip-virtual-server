@@ -2,7 +2,7 @@ const ejs = require('ejs');
 const fs = require('fs');
 const path = require('path');
 
-const templatePath = path.join(__dirname, '../templates/imposter.ejs');
+const templatePath = path.join(__dirname, '../imposter.ejs');
 const outputPath = path.join(__dirname, '../imposter.json');
 
 ejs.renderFile(templatePath, {}, (err, str) => {

@@ -1,0 +1,12 @@
+{	
+    "payload": {	
+        "estado": "EXITOSO",	
+        "mensaje": "Se generó el documento PDF del SLIP.",	
+        "codSolicitud": "2024-00005-CAR",	
+        "numeroVersion": 1,	
+        "documento": {	
+            "documentId": "0cb965f2-1cbb-4481-ab56-f583a19d3484",	
+            "url": "https://ue2stgas3testroy001.s3.us-east-2.amazonaws.com/ecm-test/storage/pyc/car/originacion/slip/2024/03/27/2024-00179-CAR_MARCARGO%20S%20A_20240327_1_0cb965f2-1cbb-4481-ab56-f583a19d3484.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAW6L6BAXNZRIVU5FT%2F20240618%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20240618T235520Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLWVhc3QtMiJHMEUCIFW5y37qXYUHUPB%2Bh6aEvaUB2bkMczI54akfvzb%2Fm24RAiEAlxp%2BTzBsZS4d%2FxZAGk8VAlwTPLkzv64aICB4nB3%2BfLEq%2BgIIIRAEGgw0Nzc1NDI1NDg5NTUiDAdDcv9rv%2BHMnnQkPSrXAhrp6YGwdKh1yjD819R3Cx5H5Mwvxw4LwtNt2MxtXNk9RKQqJhauzMCuYTw094cmmsuHeax2u%2Fnf9tu8pB3MT5HutvoVh3y3GJLQFSxEyJ7G953UusiULEDOi5WoCPozuLP8JQQqUaAR84LZR67Hyy%2BjKQUL%2BMjHqktCi84yhFEabsnC5X6SuiG3V9mKECis2moVPN%2Fb5Ge8nZrdkecblK6GJkHAPYjwvjtdfqZzBhNanKNMGx0E7yrItIYvpdQGaUuwCjRl1U6J%2B7145VauQd55iprSWwqo%2B2mi%2FjibxvYAikop08EBK3R4D8EllLIJUWhhveS8kpIIOtOjkTnO1ftk8EwhwfM9DLS%2B1iGrbeF7%2BbDrFZbJjOuSznyMNPcZ70KDUAdTYdSFKVVDdUnqaChtP%2BqhKM03Uwu8GXXUT5xyD0vozkbyG0EPgMb0DXRdMWhn5xEr17gwxrrIswY6ngGxQw%2Brgg7AuetsUY%2BUrT7om1kxhZisR0cReMpOvdU8LnTBMqPY9Q%2BD4ej4%2BU9LFTOZGYosczZwyKFRcrWBF9SF4%2FjSYpK2kyydz6tIOoK8LtsTQLcT34SyQYBZGR94T8mQLWlwzPWP3KkD0J%2B1K13C7QIAB50tYBFtNNcSUJWqW4KvAI%2FB4z77xpn0SrBvA5ux0VkpCAE%2BZnviTSM8QA%3D%3D&X-Amz-Signature=d653a95fe91f5722611c633859e94e927c9f34277557bb817770c0f8fe69ce00&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf"	
+        }	
+    }	
+}	

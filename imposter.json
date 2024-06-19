@@ -19,7 +19,7 @@
 },
 {
 "matches": {
-"path": "/api-slipsautomaticos/slip/solicitud/detalle"
+"path": "/slip/solicitud/detalle"
 }
 }
 
@@ -3338,7 +3338,7 @@
 },
 {
 "matches": {
-"path": "/api-slipsautomaticos/slip/solicitud/detalle"
+"path": "/slip/solicitud/detalle"
 }
 }
 
@@ -4310,7 +4310,7 @@
 },
 {
 "matches": {
-"path": "/api-slipsautomaticos/slip/solicitud/detalle"
+"path": "/slip/solicitud/detalle"
 }
 }
 
@@ -6291,7 +6291,7 @@
 },
 {
 "matches": {
-"path": "/api-slipsautomaticos/slip/solicitud/detalle"
+"path": "/slip/solicitud/detalle"
 }
 }
 
@@ -7812,6 +7812,63 @@
     }]
 }
 ,
+{
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+"path": "/slip/solicitud/terminar"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {	
+  "payload": {	
+    "solicitud": {	
+      "codSolicitud": "2024-00011-CAR",	
+      "numeroVersion": 1	
+    }	
+  }	
+}	
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {	
+    "payload": {	
+        "estado": "EXITOSO",	
+        "mensaje": "Tu solicitud ha sido guardada, sin embargo no se pudo notificar la culminación de esta a Salesforce.",	
+        "solicitud": {	
+            "idDocumento": "a9012841-0b6d-42f3-b76c-bbd559506048",	
+            "url": "https://ue2stgas3testroy001.s3.us-east-2.amazonaws.com/ecm-test/storage/pyc/car/originacion/slip/2024/06/18/2024-998089-CAR_LHUT%20LIUIS%20NU%C3%91OVERA%20SINSE_20240619_1_a9012841-0b6d-42f3-b76c-bbd559506048.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAW6L6BAXN4S6PRUDJ%2F20240619%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20240619T001743Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLWVhc3QtMiJHMEUCIDO1xXv9y36rxjDxIUJxWe59vcIxVwEY1%2FxnBu85aCu8AiEA%2FJFanzx3LrxNiy%2F4EirPQcq8xS1k4z1y9Ra0QHhynIIq%2BgIIIRAEGgw0Nzc1NDI1NDg5NTUiDFO%2FMBMnDyHwyOcD5irXAodbhGA84VdOyJs1QMcHLMOjHTHZ5g6tvtIhBNuR3DioMt94wKlPt91Smj%2FeM0cH0XINu7fiZacnsFm6ZNQ3GgIsZoMfoW7wqT8mymP2FDGo8lgT17eQtXhp3GCuKdRcqfrRJ%2BaLapf0NcQUDMp5i7zQbSHa0GiETJ0FbAw7frsM%2BepYrLx9b0yA6vluu7AQ08C27uXaetcjj02aVxJNhdqYS9OhcstGj%2FJmMRCdECBYgQDylcFkn1phlKXVyuhoiuOP7Jjbh38eOSwXMxSlFep7C9orctihEsfzBxxywkwzjcZNVAqIrAthXaak2kUK3Pm%2BOQQm24gOIylX4dUMGhfKTCDpuf1n120TGG%2BYxOTCtLOl1hq4Qb6dhvi8NHX%2BscBnRado24nG8Du3Y9nvY5BXmJwY2Q8fzTp8AfQNx5gps1l8p0Vtr%2FY%2FQuoaPwdJ8qG00WtN5MswncfIswY6ngEMz7J2KXVbRhEav7xe8znWNtRZ2rLyWHPpXtFST6VjvNJF5x8%2FOMmVptADt%2BT%2FUMU9gv9pAqIIKTN7yCa47oZLQN7L%2FCdXyl1Ls%2BPyhINE2PkvPyhXpnYLMrXVVYRBCrLFavrWZfoX3jHoqJTK8HnWI4l6lcXJkXirOrv4opuFVsyd5zrNqDc4fddYnNqvWTUF7u5smC7HFwVpDXOFeA%3D%3D&X-Amz-Signature=8d332fe280764eb536ec73c718530a44d3d883f0b787df7debb6531a2295a337&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf",	
+            "codSolicitud": "2024-00011-CAR",	
+            "numeroVersion": 1	
+        }	
+    }	
+}	
+            }
+        }
+    ]
+}
+,
       {
     "predicates": [{
         "and": [
@@ -7824,7 +7881,7 @@
 {
 "matches": 
 {
-"path": "/api-slipsautomaticos/slip/solicitud/producto/plantilla"
+"path": "/slip/solicitud/producto/plantilla"
 }
 }
 
@@ -7906,7 +7963,7 @@
 {
 "matches": 
 {
-"path": "/api-slipsautomaticos/slip/solicitud/producto/plantilla"
+"path": "/slip/solicitud/producto/plantilla"
 }
 }
 
@@ -7988,7 +8045,7 @@
 {
 "matches": 
 {
-"path": "/api-slipsautomaticos/slip/solicitud/producto/plantilla"
+"path": "/slip/solicitud/producto/plantilla"
 }
 }
 
@@ -8230,7 +8287,7 @@
 {
 "matches": 
 {
-"path": "/api-slipsautomaticos/slip/solicitud/producto/plantilla"
+"path": "/slip/solicitud/producto/plantilla"
 }
 }
 
@@ -8472,7 +8529,7 @@
 {
 "matches": 
 {
-"path": "/api-slipsautomaticos/slip/solicitud/plantilla"
+"path": "/slip/solicitud/plantilla"
 }
 }
 
@@ -9338,7 +9395,7 @@
 {
 "matches": 
 {
-"path": "/api-slipsautomaticos/slip/solicitud/plantilla"
+"path": "/slip/solicitud/plantilla"
 }
 }
 
@@ -11221,7 +11278,7 @@
 {
 "matches": 
 {
-"path": "/api-slipsautomaticos/slip/solicitud/plantilla"
+"path": "/slip/solicitud/plantilla"
 }
 }
 
@@ -14430,7 +14487,7 @@
 {
 "matches": 
 {
-"path": "/api-slipsautomaticos/slip/solicitud/plantilla"
+"path": "/slip/solicitud/plantilla"
 }
 }
 
@@ -15849,6 +15906,764 @@
 }
         }
     }]
+}
+,
+{
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+"path": "/slip/solicitud/clonar/plantilla"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {	
+  "payload": {	
+    "solicitud": {	
+      "codSolicitud": "2024-00011-CAR",	
+      "idPlantilla": "72da3c2c-7776-4901-afc4-ab12e8ada38d",	
+      "numeroVersion": 1	
+    }	
+  }	
+}	
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {	
+  "payload": {	
+    "estado": "EXITOSO",	
+    "mensaje": "La plantilla ha sido seleccionada con éxito."
+  }	
+}	
+            }
+        }
+    ]
+}
+,
+      {
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+"path": "/slip/solicitud/plantilla/modulo/seccion/elemento"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {	
+  "payload": {	
+    "plantilla": {	
+      "idPlantilla": "d7dd8d81-eb6a-4e3b-bf46-d701c98f7528",	
+      "idModulo": "8ec54619-15e2-4b93-a6ec-5bbc3b48ba20",	
+      "idSeccion": "fe104b78-dcb2-4f48-9398-d9c81b509366",	
+      "textoLibre": {	
+        "nombre": "txt libre",	
+        "contenido": "<ol><li>ttttttttt</li></ol>"	
+      }	
+    }	
+  }	
+}	
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {	
+  "payload": {	
+    "estado": "EXITOSO",	
+    "mensaje": "Mostrado satisfactoriamente."	
+  }	
+}	
+            }
+        }
+    ]
+}
+,
+{
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+    "path": "/slip/solicitud/catalogo/lista/elemento"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {	
+  "payload": {	
+    "catalogo": {	
+      "idCatalogo": "542bcaae-4a90-47ef-8d0a-73210c47a15f",	
+      "idLista": "6a9f3fbd-0700-48cc-8d72-ab662dfa1cbf",	
+      "lista": [	
+        {	
+          "descripcion": "Cumplimiento de las Recomendaciones de los estudios geotécnicos o de subsuelos realizado para este proyecto específico.",	
+          "idEntidad": "b8728280-9551-4b8a-97d4-dc70825cd637",	
+          "clasificacion": "SIMPLE",	
+          "indVisible": true,	
+          "tipoEntidad": "ELEMENTO",	
+          "textoDescriptivo": "Cumplimiento de las Recomendaciones de los estudios geotécnicos o de subsuelos realizado para este proyecto específico.",	
+          "isSelected": true	
+        }	
+      ]	
+    },	
+    "codSolicitud": "2024-00006-CAR",	
+    "version": 1,	
+    "fromPlantilla": true,	
+    "reglas": {	
+      "ejecutar": true	
+    }	
+  }	
+}	
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {	
+  "payload": {	
+    "estado": "EXITOSO",	
+    "mensaje": "Registrado satisfactoriamente"	
+  }	
+}	
+            }
+        }
+    ]
+}
+,
+{
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+    "path": "/slip/plantilla/modulo/seccion/catalogo/elementos"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {					
+  "payload": {					
+    "plantilla": {					
+      "idPlantilla": "d7dd8d81-eb6a-4e3b-bf46-d701c98f7528",					
+      "idModulo": "8ec54619-15e2-4b93-a6ec-5bbc3b48ba20",					
+      "idSeccion": "fe104b78-dcb2-4f48-9398-d9c81b509366",					
+      "idCatalogo": "542bcaae-4a90-47ef-8d0a-73210c47a15f",					
+      "idEstructura": "6a9f3fbd-0700-48cc-8d72-ab662dfa1cbf"					
+    }					
+  }					
+}					
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {				
+    "payload": {	
+      "estado": "EXITOSO",					
+      "mensaje": "Se encontaron coincidencias en la búsqueda",					
+       "data": [				
+            {				
+                "descripcion": "Cumplimiento de las Recomendaciones de los estudios geotécnicos o de subsuelos realizado para este proyecto específico.",				
+                "idEntidad": "b8728280-9551-4b8a-97d4-dc70825cd637",				
+                "clasificacion": "SIMPLE",				
+                "indVisible": true,				
+                "tipoEntidad": "ELEMENTO",				
+                "textoDescriptivo": "Cumplimiento de las Recomendaciones de los estudios geotécnicos o de subsuelos realizado para este proyecto específico."				
+            }				
+        ]				
+    }				
+}				
+            }
+        }
+    ]
+}
+,
+{
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+"path": "slip/solicitud/catalogo/tabla/elemento"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {		
+  "payload": {		
+    "catalogo": {		
+      "idCatalogo": "d8efba5c-2e4d-4afc-b7f4-3c9512709298",		
+      "idTabla": "3dea9588-0c82-4cd5-97b2-b575ec964000",		
+      "tabla": [		
+        {		
+          "descripcion": [		
+            {		
+              "idEntidad": "166b694f-c93e-42e6-a9c1-799382158a0d",		
+              "descripcion": "Robo",		
+              "calculoSub": {		
+                "f99cb4f3-5763-4bc1-bbef-164a97f42464": {		
+                  "valorMaximo": 1000000,		
+                  "editarMonto": false,		
+                  "formula": "f99cb4f3-5763-4bc1-bbef-164a97f42464*0.1",		
+                  "tipoValor": "numerico",		
+                  "calculate": true,		
+                  "valorMinimo": 1,		
+                  "operador": "multiplicacion",		
+                  "typeCalculo": "CALCULO_SUBLIMITES"		
+                }		
+              },		
+              "indVisible": true,		
+              "clasificacion": "SIMPLE",		
+              "tipoEntidad": "ELEMENTO",		
+              "textoDescriptivo": "Robo",		
+              "isSelected": true		
+            }		
+          ],		
+          "sumaAsegurada": {		
+            "monto": {		
+              "cantidad": 0,		
+              "simbolo": "US$",		
+              "codigoMoneda": "USD"		
+            },		
+            "modalidad": []		
+          }		
+        }		
+      ]		
+    },		
+    "codSolicitud": "2024-00006-CAR",		
+    "version": 1,		
+    "fromPlantilla": true,		
+    "reglas": {		
+      "ejecutar": true		
+    }		
+  }		
+}		
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {		
+    "payload": {		
+        "estado": "EXITOSO",		
+        "mensaje": "Registro exitoso"		
+    }		
+}		
+            }
+        }
+    ]
+}
+,
+{
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+"path": "slip/solicitud/catalogo/tabla/elemento"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {		
+  "payload": {		
+    "catalogo": {		
+      "idCatalogo": "d8efba5c-2e4d-4afc-b7f4-3c9512709298",		
+      "idTabla": "3dea9588-0c82-4cd5-97b2-b575ec964000",		
+      "tabla": [		
+        {		
+          "id": "e48a38e2-62dc-4cf2-91e3-ba1a1737ed9b",		
+          "descripcion": [		
+            {		
+              "descripcion": "\"A\" Cobertura Básica (excluye Robo)",		
+              "esActivo": true,		
+              "tipoEntidad": "ELEMENTO",		
+              "idEntidad": "f99cb4f3-5763-4bc1-bbef-164a97f42464",		
+              "etiqueta": {		
+                "modulo": [],		
+                "seccion": []		
+              },		
+              "clasificacion": "SIMPLE",		
+              "textoDescriptivo": "\"A\" Cobertura Básica (excluye Robo)",		
+              "isSelected": true		
+            }		
+          ],		
+          "sumaAsegurada": {		
+            "monto": {		
+              "idEntidad": "ef54f673-e346-4991-b322-998c802cb677",		
+              "cantidad": 100,		
+              "simbolo": "US$",		
+              "codigoMoneda": "USD"		
+            },		
+            "modalidad": []		
+          }		
+        }		
+      ]		
+    },		
+    "codSolicitud": "2024-00006-CAR",		
+    "version": 1,		
+    "fromPlantilla": true,		
+    "reglas": {		
+      "ejecutar": true		
+    }		
+  }		
+}		
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {		
+    "payload": {		
+        "estado": "EXITOSO",		
+        "mensaje": "Actualización exitosa"		
+    }		
+}		
+            }
+        }
+    ]
+}
+,
+{
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "DELETE"
+}
+},
+{
+"matches": {
+"path": "/slip/solicitud/catalogo/lista/elemento"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {	
+  "payload": {	
+    "catalogo": {	
+      "idCatalogo": "542bcaae-4a90-47ef-8d0a-73210c47a15f",	
+      "idLista": "6a9f3fbd-0700-48cc-8d72-ab662dfa1cbf",	
+      "lista": {	
+        "idEntidad": "b8728280-9551-4b8a-97d4-dc70825cd637"	
+      }	
+    },	
+    "codSolicitud": "2024-00006-CAR",	
+    "version": 1,	
+    "fromPlantilla": true,	
+    "reglas": {	
+      "ejecutar": true	
+    }	
+  }	
+}	
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {	
+  "payload": {	
+    "estado": "EXITOSO",	
+    "mensaje": "Eliminado Satisfactoriamente"	
+  }	
+}	
+            }
+        }
+    ]
+}
+,
+{
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "DELETE"
+}
+},
+{
+"matches": {
+"path": "/slip/solicitud/catalogo/tabla/elemento"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {					
+  "payload": {					
+    "catalogo": {					
+      "idCatalogo": "d8efba5c-2e4d-4afc-b7f4-3c9512709298",					
+      "idTabla": "3dea9588-0c82-4cd5-97b2-b575ec964000",					
+      "tabla": {					
+        "idEntidad": "83c4eb5f-0f59-46da-849f-aae6830f6536"					
+      }					
+    },					
+    "codSolicitud": "2024-00006-CAR",					
+    "version": 1,					
+    "fromPlantilla": true,					
+    "reglas": {					
+      "ejecutar": true					
+    }					
+  }					
+}					
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {			
+  "payload": {			
+    "estado": "EXITOSO",			
+    "mensaje": "Eliminado Satisfactoriamente"			
+  }			
+}			
+            }
+        }
+    ]
+}
+,
+      {
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+"path": "/slip/plantilla/ocultados/seccion"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {	
+  "payload": {	
+    "plantilla": {	
+      "idPlantilla": "d7dd8d81-eb6a-4e3b-bf46-d701c98f7528",	
+      "idModulo": "9818b7a2-e864-478a-9efd-ce1c43fe29c2"	
+    }	
+  }	
+}	
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {	
+    "payload": {	
+        "data": [	
+            {	
+                "idEntidad": "fe104b78-dcb2-4f48-9398-d9c81b509366",	
+                "descripcion": "SECCIÓN TODO RIESGO PARA CONTRATISTAS"	
+            }	
+        ]	
+    }	
+}	
+            }
+        }
+    ]
+}
+,
+      {
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+"path": "/slip/documento/generar"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {	
+  "payload": {	
+    "codSolicitud": "2024-00005-CAR",	
+    "numeroVersion": 1	
+  }	
+}	
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {	
+    "payload": {	
+        "estado": "EXITOSO",	
+        "mensaje": "Se generó el documento PDF del SLIP.",	
+        "codSolicitud": "2024-00005-CAR",	
+        "numeroVersion": 1,	
+        "documento": {	
+            "documentId": "0cb965f2-1cbb-4481-ab56-f583a19d3484",	
+            "url": "https://ue2stgas3testroy001.s3.us-east-2.amazonaws.com/ecm-test/storage/pyc/car/originacion/slip/2024/03/27/2024-00179-CAR_MARCARGO%20S%20A_20240327_1_0cb965f2-1cbb-4481-ab56-f583a19d3484.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAW6L6BAXNZRIVU5FT%2F20240618%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20240618T235520Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLWVhc3QtMiJHMEUCIFW5y37qXYUHUPB%2Bh6aEvaUB2bkMczI54akfvzb%2Fm24RAiEAlxp%2BTzBsZS4d%2FxZAGk8VAlwTPLkzv64aICB4nB3%2BfLEq%2BgIIIRAEGgw0Nzc1NDI1NDg5NTUiDAdDcv9rv%2BHMnnQkPSrXAhrp6YGwdKh1yjD819R3Cx5H5Mwvxw4LwtNt2MxtXNk9RKQqJhauzMCuYTw094cmmsuHeax2u%2Fnf9tu8pB3MT5HutvoVh3y3GJLQFSxEyJ7G953UusiULEDOi5WoCPozuLP8JQQqUaAR84LZR67Hyy%2BjKQUL%2BMjHqktCi84yhFEabsnC5X6SuiG3V9mKECis2moVPN%2Fb5Ge8nZrdkecblK6GJkHAPYjwvjtdfqZzBhNanKNMGx0E7yrItIYvpdQGaUuwCjRl1U6J%2B7145VauQd55iprSWwqo%2B2mi%2FjibxvYAikop08EBK3R4D8EllLIJUWhhveS8kpIIOtOjkTnO1ftk8EwhwfM9DLS%2B1iGrbeF7%2BbDrFZbJjOuSznyMNPcZ70KDUAdTYdSFKVVDdUnqaChtP%2BqhKM03Uwu8GXXUT5xyD0vozkbyG0EPgMb0DXRdMWhn5xEr17gwxrrIswY6ngGxQw%2Brgg7AuetsUY%2BUrT7om1kxhZisR0cReMpOvdU8LnTBMqPY9Q%2BD4ej4%2BU9LFTOZGYosczZwyKFRcrWBF9SF4%2FjSYpK2kyydz6tIOoK8LtsTQLcT34SyQYBZGR94T8mQLWlwzPWP3KkD0J%2B1K13C7QIAB50tYBFtNNcSUJWqW4KvAI%2FB4z77xpn0SrBvA5ux0VkpCAE%2BZnviTSM8QA%3D%3D&X-Amz-Signature=d653a95fe91f5722611c633859e94e927c9f34277557bb817770c0f8fe69ce00&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf"	
+        }	
+    }	
+}	
+            }
+        }
+    ]
+}
+,
+      {
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "POST"
+}
+},
+{
+"matches": {
+"path": "/slip/solicitud/plantilla/modulo/seccion"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {	
+  "payload": {	
+    "plantilla": {	
+      "idPlantilla": "d7dd8d81-eb6a-4e3b-bf46-d701c98f7528",	
+      "idModulo": "64217bf8-0855-4c02-9a43-6b06317edb13",	
+      "seccion": [	
+        {	
+          "idEntidad": "87d33388-210b-4a4f-92be-9d37d04f3627",	
+          "descripcion": "APLICABLES A TODAS LAS SECCIONES"	
+        }	
+      ]	
+    },	
+    "ocultar": true	
+  }	
+}	
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {"payload": {	
+    "estado": "EXITOSO",	
+    "mensaje": "Mostrado satisfactoriamente."	
+  }	
+}	
+            }
+        }
+    ]
+}
+,
+{
+    "predicates": [
+        {
+            "and": [
+                {
+"equals": {
+"method": "DELETE"
+}
+},
+{
+"matches": {
+"path": "/solicitud/plantilla/modulo/seccion"
+}
+}
+
+,
+                {
+                    "equals":{
+                        "body": {	
+  "payload": {	
+    "plantilla": {	
+      "idPlantilla": "d7dd8d81-eb6a-4e3b-bf46-d701c98f7528",	
+      "idModulo": "9818b7a2-e864-478a-9efd-ce1c43fe29c2",	
+      "idSeccion": "fe104b78-dcb2-4f48-9398-d9c81b509366"	
+    },	
+    "ocultar": true	
+  }	
+}	
+                    }
+                    
+                }
+            ]
+        }
+    ],
+    "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "http://localhost:4200"
+},
+                "body": {	
+  "payload": {	
+    "estado": "EXITOSO",	
+    "mensaje": "Ocultado satisfactoriamente."	
+  }	
+}	
+            }
+        }
+    ]
 }
 
     ]

@@ -1,0 +1,49 @@
+{		
+  "payload": {		
+    "catalogo": {		
+      "idCatalogo": "d8efba5c-2e4d-4afc-b7f4-3c9512709298",		
+      "idTabla": "3dea9588-0c82-4cd5-97b2-b575ec964000",		
+      "tabla": [		
+        {		
+          "descripcion": [		
+            {		
+              "idEntidad": "166b694f-c93e-42e6-a9c1-799382158a0d",		
+              "descripcion": "Robo",		
+              "calculoSub": {		
+                "f99cb4f3-5763-4bc1-bbef-164a97f42464": {		
+                  "valorMaximo": 1000000,		
+                  "editarMonto": false,		
+                  "formula": "f99cb4f3-5763-4bc1-bbef-164a97f42464*0.1",		
+                  "tipoValor": "numerico",		
+                  "calculate": true,		
+                  "valorMinimo": 1,		
+                  "operador": "multiplicacion",		
+                  "typeCalculo": "CALCULO_SUBLIMITES"		
+                }		
+              },		
+              "indVisible": true,		
+              "clasificacion": "SIMPLE",		
+              "tipoEntidad": "ELEMENTO",		
+              "textoDescriptivo": "Robo",		
+              "isSelected": true		
+            }		
+          ],		
+          "sumaAsegurada": {		
+            "monto": {		
+              "cantidad": 0,		
+              "simbolo": "US$",		
+              "codigoMoneda": "USD"		
+            },		
+            "modalidad": []		
+          }		
+        }		
+      ]		
+    },		
+    "codSolicitud": "2024-00006-CAR",		
+    "version": 1,		
+    "fromPlantilla": true,		
+    "reglas": {		
+      "ejecutar": true		
+    }		
+  }		
+}		

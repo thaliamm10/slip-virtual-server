@@ -1,0 +1,12 @@
+{	
+    "payload": {	
+        "estado": "EXITOSO",	
+        "mensaje": "Tu solicitud ha sido guardada, sin embargo no se pudo notificar la culminación de esta a Salesforce.",	
+        "solicitud": {	
+            "idDocumento": "a9012841-0b6d-42f3-b76c-bbd559506048",	
+            "url": "https://ue2stgas3testroy001.s3.us-east-2.amazonaws.com/ecm-test/storage/pyc/car/originacion/slip/2024/06/18/2024-998089-CAR_LHUT%20LIUIS%20NU%C3%91OVERA%20SINSE_20240619_1_a9012841-0b6d-42f3-b76c-bbd559506048.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAW6L6BAXN4S6PRUDJ%2F20240619%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20240619T001743Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLWVhc3QtMiJHMEUCIDO1xXv9y36rxjDxIUJxWe59vcIxVwEY1%2FxnBu85aCu8AiEA%2FJFanzx3LrxNiy%2F4EirPQcq8xS1k4z1y9Ra0QHhynIIq%2BgIIIRAEGgw0Nzc1NDI1NDg5NTUiDFO%2FMBMnDyHwyOcD5irXAodbhGA84VdOyJs1QMcHLMOjHTHZ5g6tvtIhBNuR3DioMt94wKlPt91Smj%2FeM0cH0XINu7fiZacnsFm6ZNQ3GgIsZoMfoW7wqT8mymP2FDGo8lgT17eQtXhp3GCuKdRcqfrRJ%2BaLapf0NcQUDMp5i7zQbSHa0GiETJ0FbAw7frsM%2BepYrLx9b0yA6vluu7AQ08C27uXaetcjj02aVxJNhdqYS9OhcstGj%2FJmMRCdECBYgQDylcFkn1phlKXVyuhoiuOP7Jjbh38eOSwXMxSlFep7C9orctihEsfzBxxywkwzjcZNVAqIrAthXaak2kUK3Pm%2BOQQm24gOIylX4dUMGhfKTCDpuf1n120TGG%2BYxOTCtLOl1hq4Qb6dhvi8NHX%2BscBnRado24nG8Du3Y9nvY5BXmJwY2Q8fzTp8AfQNx5gps1l8p0Vtr%2FY%2FQuoaPwdJ8qG00WtN5MswncfIswY6ngEMz7J2KXVbRhEav7xe8znWNtRZ2rLyWHPpXtFST6VjvNJF5x8%2FOMmVptADt%2BT%2FUMU9gv9pAqIIKTN7yCa47oZLQN7L%2FCdXyl1Ls%2BPyhINE2PkvPyhXpnYLMrXVVYRBCrLFavrWZfoX3jHoqJTK8HnWI4l6lcXJkXirOrv4opuFVsyd5zrNqDc4fddYnNqvWTUF7u5smC7HFwVpDXOFeA%3D%3D&X-Amz-Signature=8d332fe280764eb536ec73c718530a44d3d883f0b787df7debb6531a2295a337&X-Amz-SignedHeaders=host&response-content-type=application%2Fpdf",	
+            "codSolicitud": "2024-00011-CAR",	
+            "numeroVersion": 1	
+        }	
+    }	
+}	

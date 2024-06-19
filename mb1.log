@@ -1,3 +1,9 @@
-{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-06-19T05:00:20.378Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2024-06-19T05:00:20.440Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2024-06-19T05:02:23.590Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-06-19T20:51:03.063Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2024-06-19T20:51:03.550Z"}
+{"level":"info","message":"[http:3000 Imposter for api] Open for business...","timestamp":"2024-06-19T20:51:03.685Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:61109 => DELETE /solicitud/plantilla/modulo/seccion","timestamp":"2024-06-19T20:51:06.185Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:61130 => POST /slip/solicitud/terminar","timestamp":"2024-06-19T20:52:17.033Z"}
+{"level":"info","message":"[http:3000 Imposter for api] no predicate match, using default response","timestamp":"2024-06-19T20:52:17.061Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:61136 => POST /slip/solicitud/terminar","timestamp":"2024-06-19T20:52:31.157Z"}
+{"level":"info","message":"[http:3000 Imposter for api] no predicate match, using default response","timestamp":"2024-06-19T20:52:31.168Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2024-06-19T20:53:38.196Z"}
