@@ -1,0 +1,74 @@
+{
+    "payload": {
+        "paginacion": {
+            "page": 0,
+            "size": 10,
+            "total": 1
+        },
+        "data": [
+            {
+                "version": 1,
+                "estado": "CREADA",
+                "nota": null,
+                "producto": {
+                    "sigla": "ROB",
+                    "idProducto": 1,
+                    "codRefExterna": "1101",
+                    "nombreProducto": "Robo"
+                },
+                "corredor": {
+                    "numId": "21",
+                    "nomTipoDoc": "RUC",
+                    "nroDocumento": "21",
+                    "codRefExterna": "21",
+                    "tipoDocumento": 1,
+                    "nombreCorredor": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop22 "
+                },
+                "auditoria": {
+                    "dateCreate": {
+                        "date": "2024-05-13 19:53:29.000000",
+                        "utcOffset": "-05:00"
+                    },
+                    "dateUpdate": {
+                        "date": "2024-06-14 22:14:17.000000",
+                        "utcOffset": "-05:00"
+                    },
+                    "userCreate": 92,
+                    "userUpdate": 146
+                },
+                "codSolicitud": "2024-00561-ROB",
+                "codOrigen": "TL1130",
+                "idPlantilla": "c28eed58-8058-403d-a12e-22668e2039a7",
+                "cliente": [
+                    {
+                        "numId": null,
+                        "nomTipoDoc": "RUC",
+                        "rolCliente": "CONTRATANTE",
+                        "nroDocumento": "34823105112",
+                        "codRefExterna": null,
+                        "nombreCliente": "EstosoncincuentapalabrasparalapruebadePDFentreSalesforceYSlipsEstosoncincuentapalabrasparalapruebadePDFentreSalesforceYSlipsEstosoncincuentapalabrasparalapruebadePDFentreSalesforceYSlipsEstosoncinaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx200 ",
+                        "tipoDocumento": 1
+                    },
+                    {
+                        "numId": null,
+                        "nomTipoDoc": "RUC",
+                        "rolCliente": "ASEGURADO",
+                        "nroDocumento": "12345076137",
+                        "codRefExterna": null,
+                        "nombreCliente": "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the s when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries but also the leap into electronic typesetting remaining essentially unchanged It was popularised in the s with the release of Letraset sheets containing Lorem Ipsum passages and more recently with desktoppppppppppppppppppp ",
+                        "tipoDocumento": 1
+                    },
+                    {
+                        "numId": null,
+                        "nomTipoDoc": "RUC",
+                        "rolCliente": "ASEGURADO_ADICIONAL",
+                        "nroDocumento": "12345671112",
+                        "codRefExterna": null,
+                        "nombreCliente": "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the s when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries but also the leap into electronic typesetting remaining essentially unchanged It was popularised in the s with the release of Letraset sheets containing Lorem Ipsum passages and more recently with desktoppppppppppppppppppp ",
+                        "tipoDocumento": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

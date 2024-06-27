@@ -4,9 +4,12 @@
             "and": [
                 <% include ../shared/match_request.ejs %>,
                 {
-                    "contains": { "path": "2024-00561-ROB" }
-                }
-            ]
+                   "contains": {
+                        "query": {
+                          "valorBusqueda": "TL1130"
+                        }
+                      }
+                    }]
         }
     ],
     "responses": [

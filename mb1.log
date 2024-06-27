@@ -1,9 +1,58 @@
-{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-06-19T20:51:03.063Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2024-06-19T20:51:03.550Z"}
-{"level":"info","message":"[http:3000 Imposter for api] Open for business...","timestamp":"2024-06-19T20:51:03.685Z"}
-{"level":"info","message":"[http:3000 Imposter for api] ::1:61109 => DELETE /solicitud/plantilla/modulo/seccion","timestamp":"2024-06-19T20:51:06.185Z"}
-{"level":"info","message":"[http:3000 Imposter for api] ::1:61130 => POST /slip/solicitud/terminar","timestamp":"2024-06-19T20:52:17.033Z"}
-{"level":"info","message":"[http:3000 Imposter for api] no predicate match, using default response","timestamp":"2024-06-19T20:52:17.061Z"}
-{"level":"info","message":"[http:3000 Imposter for api] ::1:61136 => POST /slip/solicitud/terminar","timestamp":"2024-06-19T20:52:31.157Z"}
-{"level":"info","message":"[http:3000 Imposter for api] no predicate match, using default response","timestamp":"2024-06-19T20:52:31.168Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2024-06-19T20:53:38.196Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-06-27T15:45:46.615Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2024-06-27T15:45:50.415Z"}
+{"level":"info","message":"[http:3000 Imposter for api] Open for business...","timestamp":"2024-06-27T15:45:51.007Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:61378 => POST /slip/solicitud/plantilla/modulo/seccion","timestamp":"2024-06-27T15:49:06.904Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:61384 => DELETE /slip/solicitud/catalogo/lista/elemento","timestamp":"2024-06-27T15:49:10.365Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:61604 => POST /slip/solicitud/catalogo/lista/elemento","timestamp":"2024-06-27T15:55:02.117Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:61609 => DELETE /slip/solicitud/catalogo/lista/elemento","timestamp":"2024-06-27T15:55:05.029Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:61637 => DELETE /slip/solicitud/catalogo/lista/elemento","timestamp":"2024-06-27T15:56:07.737Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62414 => DELETE /slip/solicitud/catalogo/tabla/elemento%09%09","timestamp":"2024-06-27T16:13:34.714Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62422 => DELETE /slip/solicitud/catalogo/tabla/elemento%09%09","timestamp":"2024-06-27T16:13:46.062Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62598 => DELETE /solicitud/plantilla/modulo/seccion","timestamp":"2024-06-27T16:17:30.643Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63821 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T17:19:22.173Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63822 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:19:22.218Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63823 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T17:19:22.223Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63824 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:19:22.240Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64577 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T17:39:24.067Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64578 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:39:24.084Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64579 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T17:39:24.093Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64580 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:39:24.120Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64637 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T17:40:43.581Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64638 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:40:43.613Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64663 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T17:41:04.536Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64664 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:41:04.553Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64719 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T17:41:18.041Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64720 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:41:18.056Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64721 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T17:41:18.068Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64722 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:41:18.090Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64914 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:44:54.584Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64992 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:45:18.115Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:64993 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:45:18.133Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:65074 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:46:01.147Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:65075 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:46:01.166Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:65450 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:52:55.596Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:65509 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:54:07.555Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:49171 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:54:59.552Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:49221 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:55:14.199Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:49222 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:55:14.245Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:49273 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T17:56:06.582Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52750 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T19:11:11.588Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52751 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T19:11:11.594Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52830 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T19:11:55.115Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52831 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T19:11:55.128Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52832 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T19:11:55.145Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52833 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T19:11:55.166Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52867 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T19:12:38.293Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52873 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T19:12:41.594Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52886 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T19:12:58.378Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:53230 => POST /slip/plantilla/ocultados/seccion","timestamp":"2024-06-27T19:18:31.391Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:53236 => POST /slip/solicitud/catalogo/lista/elemento","timestamp":"2024-06-27T19:18:36.783Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:53244 => POST /slip/plantilla/modulo/seccion/catalogo/elementos","timestamp":"2024-06-27T19:18:43.229Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:53270 => POST /slip/solicitud/catalogo/tabla/elemento%09","timestamp":"2024-06-27T19:19:16.979Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:53280 => POST /slip/documento/generar","timestamp":"2024-06-27T19:19:21.278Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:53288 => POST /slip/solicitud/clonar/plantilla","timestamp":"2024-06-27T19:19:29.804Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:53298 => POST /slip/solicitud/plantilla/modulo/seccion","timestamp":"2024-06-27T19:19:34.178Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:53306 => POST /slip/solicitud/plantilla/modulo/seccion/elemento","timestamp":"2024-06-27T19:19:44.996Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:54861 => GET /slip/solicitud?valorBusqueda=TL1130","timestamp":"2024-06-27T19:48:58.014Z"}
+{"level":"info","message":"[http:3000 Imposter for api] no predicate match, using default response","timestamp":"2024-06-27T19:48:58.040Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2024-06-27T19:49:05.781Z"}

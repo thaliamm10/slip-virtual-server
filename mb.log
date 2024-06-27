@@ -1,0 +1,27 @@
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-06-27T19:49:13.976Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2024-06-27T19:49:14.388Z"}
+{"level":"info","message":"[http:3000 Imposter for api] Open for business...","timestamp":"2024-06-27T19:49:14.486Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:54877 => GET /slip/solicitud?valorBusqueda=TL1130","timestamp":"2024-06-27T19:49:17.296Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52686 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:17:27.723Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52687 => GET /slip/solicitud?valorBusqueda=/TL1130}","timestamp":"2024-06-27T20:17:27.757Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52688 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:17:27.772Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:52689 => GET /slip/solicitud?valorBusqueda=/TL1130}","timestamp":"2024-06-27T20:17:27.790Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62664 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:19:07.428Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62665 => GET /slip/solicitud?valorBusqueda=/TL1130}","timestamp":"2024-06-27T20:19:07.443Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62666 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:19:07.466Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62667 => GET /slip/solicitud?valorBusqueda=/TL1130}","timestamp":"2024-06-27T20:19:07.479Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62875 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:22:31.964Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62876 => GET /slip/solicitud?valorBusqueda=/TL1130}","timestamp":"2024-06-27T20:22:31.978Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62878 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:22:32.069Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62877 => GET /slip/solicitud?valorBusqueda=/TL1130}","timestamp":"2024-06-27T20:22:32.085Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62977 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:24:19.632Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:62978 => GET /slip/solicitud?valorBusqueda=/TL1130}","timestamp":"2024-06-27T20:24:19.645Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63357 => GET /slip/solicitud/plantilla/1641af3d-ee0e-4e0e-be73-edf7d15526ec","timestamp":"2024-06-27T20:29:17.494Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63846 => GET /slip/solicitud?valorBusqueda=TL1130","timestamp":"2024-06-27T20:34:07.478Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63919 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:35:17.461Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63992 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:36:00.677Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63993 => GET /slip/solicitud?valorBusqueda=/TL1130}","timestamp":"2024-06-27T20:36:00.687Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63994 => GET /slip/solicitud/producto/plantilla/2024-00561-ROB","timestamp":"2024-06-27T20:36:00.696Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::1:63995 => GET /slip/solicitud?valorBusqueda=/TL1130}","timestamp":"2024-06-27T20:36:00.709Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::ffff:127.0.0.1:64736 => GET /slip/solicitud?valorBusqueda=TL1130","timestamp":"2024-06-27T20:47:38.678Z"}
+{"level":"info","message":"[http:3000 Imposter for api] ::ffff:127.0.0.1:64776 => GET /slip/solicitud?valorBusqueda=TL1130","timestamp":"2024-06-27T20:48:35.922Z"}

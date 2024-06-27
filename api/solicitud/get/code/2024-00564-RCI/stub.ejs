@@ -1,7 +1,7 @@
 {
     "predicates": [{
         "and": [
-            <% include ../../shared/match_request.ejs %>,
+            <% include ../shared/match_request.ejs %>,
             {
                  "contains": { "path": "2024-00564-RCI" }
             }
@@ -10,7 +10,7 @@
     "responses": [{
         "is": {
             "statusCode": 200,
-             "headers": <% include ../../shared/header.json %>,
+             "headers": <% include ../shared/header.json %>,
             "body": <% include ./body.json %>
         }
     }]
